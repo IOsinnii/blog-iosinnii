@@ -1,0 +1,33 @@
+---
+title: "About Ivan Osinnii"
+image: profile.jpg
+about:
+  template: broadside
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/ivan-osinnii
+    - icon: github
+      text: Github
+      href: https://github.com/IOsinnii
+title-block-banner: "#003559"
+title-block-banner-color: "white"
+---
+
+```{=html}
+<style>
+.about-image.round {
+  object-fit: cover;
+  object-position: 50% 20%;
+  transform: scale(1.2) translateY(-10px);
+}
+</style>
+```
+
+# **Hi!**
+
+This is my personal blog about my work and hobbies. Currently I am specializing on computational biology and data science within pharmaceutical biomedical research conducting a postdoc project at Novartis. I am a middle level R coder, beginner in Python and also learning html and other relevant for data science tools like Quarto, Github and AI assistants. My biological background spans through several major areas currently converging on cell and molecular biology, systems biology and omics analyses.
+
+In my free time I prefer to learn new technologies, languages, listen to and play music on guitar and do yoga almost every day and hiking every month. Besides acquiring hard skills I develop soft skills through participation in Toastmasters meetings, local Ski and Mountain club and occassionally writing blog posts.
+
+My passion is transforming clinical and biological data into both basic knowledge and actionable insights. For further details on this please visit my Github and LinkedIn profiles.
