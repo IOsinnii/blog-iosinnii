@@ -19,14 +19,14 @@ $font-size-root:         16px;
 
 /* Ivan Osinnii brand colors */
 $primary:    #003559;   /* navbar, buttons, links */
-$body-bg:    #ffffff;   /* body background */
 $body-color: #003559;   /* default text color */
 $link-color: #003559;
 
 /* Navigation */
 $navbar-bg:         $primary;
 $navbar-fg:         #ffffff;
-$footer-bg:         #f5f5f5;
+$footer-bg:         #003559;
+$footer-fg:         #ffffff;
 
 /*-- scss:rules --*/
 
@@ -54,10 +54,38 @@ main h1, main h2, main h3, main h4, main h5, main h6 {
   color: $body-color !important;
 }
 
-/* Title block banner — KEEP WHITE */
-.title-block-banner {
+/* Title block banner — KEEP WHITE, REDUCE HEIGHT */
+.title-block-banner,
+.quarto-title-block,
+.quarto-title-block-banner {
   background-color: $primary !important;
   color: #ffffff !important;
+}
+
+.quarto-title-banner {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  margin-bottom: 0 !important;
+}
+
+#quarto-content {
+  padding-top: 0.5rem !important;
+}
+
+.quarto-title-block + .container,
+.quarto-title-banner + .container {
+  padding-top: 0.5rem !important;
+}
+
+/* Remove default top margin on first heading after banner */
+.about-contents h1:first-child,
+main h1:first-child,
+#quarto-document-content h1:first-child {
+  margin-top: 0 !important;
+}
+
+div.about-contents {
+  padding-top: 0 !important;
 }
 
 .title-block-banner h1,
@@ -71,6 +99,19 @@ main h1, main h2, main h3, main h4, main h5, main h6 {
 /* Navbar — KEEP WHITE */
 .navbar {
   background-color: $primary !important;
+}
+
+/* Footer */
+.nav-footer {
+  background-color: #003559 !important;
+  color: #ffffff !important;
+}
+
+.nav-footer a,
+.nav-footer p,
+.nav-footer span,
+.nav-footer div {
+  color: #ffffff !important;
 }
 
 .navbar a,
