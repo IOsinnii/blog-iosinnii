@@ -1,5 +1,5 @@
 ---
-title: "About Ivan Osinnii"
+title: "About Ivan"
 image: assets/profile.jpg
 about:
   template: broadside
@@ -20,14 +20,19 @@ title-block-banner-color: "white"
   object-fit: cover;
   object-position: 50% 20%;
   transform: scale(1.2) translateY(-10px);
+  margin-bottom: 0rem;  /* gap below image */
+}
+
+.about-contents {
+  margin-top: 0rem;  /* gap above "Hi!" text */
 }
 </style>
 ```
 
 # **Hi!**
 
-This is my personal blog about my work and hobbies. Currently I am specializing on computational biology and data science within pharmaceutical biomedical research conducting a postdoc project at Novartis. I am a middle level R coder, beginner in Python and also learning html and other relevant for data science tools like Quarto, Github and AI assistants. My biological background spans through several major areas currently converging on cell and molecular biology, systems biology and omics analyses.
+This is my personal blog about my profession and hobbies. Currently I am specializing on computational biology and data science in biomedical research conducting a postdoc project at Novartis. My gate computer languages are R and bash, but I also have some experience with Python as well as with html and other relevant tools like Quarto, Github and AI assistants. My biological background spans through several major areas currently converging on cell and molecular biology, systems biology and omics. I am highly interested in understanding tissue regeneration through mitigating the inflammation and fibrosis as well as other aspects of cell signaling and senescence.
 
-In my free time I prefer to learn new technologies, languages, listen to and play music on guitar and do yoga almost every day and hiking every month. Besides acquiring hard skills I develop soft skills through participation in Toastmasters meetings, local Ski and Mountain club and occassionally writing blog posts.
+In my free time I prefer to learn how to program, foreign languages, listen to and play music on guitar. I do yoga daily and try to hike outside of my town every month. Besides acquiring hard skills I develop soft skills through participation in Toastmasters meetings, local Ski and Mountain club and occassionally writing blog posts.
 
-My passion is transforming clinical and biological data into both basic knowledge and actionable insights. For further details on this please visit my Github and LinkedIn profiles.
+My passion is transforming clinical and biological data into actionable insights by exploratory analyses, challenging biological hypotheses and performing data visualization. For further details on this please visit my Github and LinkedIn profiles.

@@ -1,11 +1,11 @@
 /*
-  Option E: Custom SCSS overlay on Cosmo
+  Option E: Custom SCSS overlay on Morph
   =======================================
   To activate, edit _quarto.yml:
     format:
       html:
         theme:
-          - cosmo
+          - morph
           - custom.scss
 
   Swap colors, font, and sizes below — no other files to touch.
@@ -13,22 +13,121 @@
 
 /*-- scss:defaults --*/
 
-/* Google Font — change the family name here AND in the @import URL below */
+/* Google Font */
 $font-family-sans-serif: 'Inter', sans-serif;
 $font-size-root:         16px;
 
-/* Brand colors */
-$primary:    #2a6fa8;   /* navbar background, buttons, active links */
-$body-bg:    #fdfbf7;   /* page background */
-$body-color: #333333;   /* default text */
-$link-color: #2a6fa8;
+/* Ivan Osinnii brand colors */
+$primary:    #003559;   /* navbar, buttons, links */
+$body-color: #003559;   /* default text color */
+$link-color: #003559;
 
 /* Navigation */
 $navbar-bg:         $primary;
 $navbar-fg:         #ffffff;
-$footer-bg:         #f5f5f5;
+$footer-bg:         #003559;
+$footer-fg:         #ffffff;
 
 /*-- scss:rules --*/
 
-/* Import Google Font (update URL to match $font-family-sans-serif above) */
+/* Import Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+/* Force body color globally */
+body {
+  color: $body-color !important;
+}
+
+/* Force main content text */
+.content, .page-content, main {
+  color: $body-color !important;
+}
+
+p, li, td, span {
+  color: $body-color !important;
+}
+
+/* Headings in main content only */
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6,
+.page-content h1, .page-content h2, .page-content h3, .page-content h4, .page-content h5, .page-content h6,
+main h1, main h2, main h3, main h4, main h5, main h6 {
+  color: $body-color !important;
+}
+
+/* Title block banner — KEEP WHITE, REDUCE HEIGHT */
+.title-block-banner,
+.quarto-title-block,
+.quarto-title-block-banner {
+  background-color: $primary !important;
+  color: #ffffff !important;
+}
+
+.quarto-title-banner {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  margin-bottom: 0 !important;
+}
+
+#quarto-content {
+  padding-top: 0.5rem !important;
+}
+
+.quarto-title-block + .container,
+.quarto-title-banner + .container {
+  padding-top: 0.5rem !important;
+}
+
+/* Remove default top margin on first heading after banner */
+.about-contents h1:first-child,
+main h1:first-child,
+#quarto-document-content h1:first-child {
+  margin-top: 0 !important;
+}
+
+div.about-contents {
+  padding-top: 0 !important;
+}
+
+.title-block-banner h1,
+.title-block-banner h2,
+.title-block-banner p,
+.title-block-banner span,
+.title-block-banner a {
+  color: #ffffff !important;
+}
+
+/* Navbar — KEEP WHITE */
+.navbar {
+  background-color: $primary !important;
+}
+
+/* Footer */
+.nav-footer {
+  background-color: #003559 !important;
+  color: #ffffff !important;
+}
+
+.nav-footer a,
+.nav-footer p,
+.nav-footer span,
+.nav-footer div {
+  color: #ffffff !important;
+}
+
+.navbar a,
+.navbar button,
+.navbar span,
+.nav-link,
+.navbar-brand {
+  color: #ffffff !important;
+}
+
+.nav-link:hover {
+  color: #e8e8e8 !important;
+}
+
+/* Button hover state */
+.btn-primary:hover {
+  background-color: #002541 !important;
+  border-color: #002541 !important;
+}

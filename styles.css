@@ -3,6 +3,12 @@
 :root {
   --bs-primary: #003559;
   --bs-primary-rgb: 0, 53, 89;
+  --bs-body-color: #003559;
+}
+
+/* Body text color */
+body {
+  color: #003559;
 }
 
 /* Navbar background */
@@ -28,6 +34,7 @@
 .quarto-title-block-banner a {
   color: #ffffff !important;
 }
+
 
 /* Buttons and links inherit primary color */
 .btn-primary {
