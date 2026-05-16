@@ -16,10 +16,10 @@ website:
 # ─────────────────────────────────────────────
 # ACTIVE THEME — Cosmo (Bootstrap default, clean)
 # ─────────────────────────────────────────────
-format:
-  html:
-    theme: cosmo
-    css: styles.css
+# format:
+#   html:
+#     theme: cosmo
+#     css: styles.css
 
 # ─────────────────────────────────────────────
 # ALTERNATIVE THEMES — uncomment one block to switch
@@ -39,10 +39,10 @@ format:
 #     css: styles.css
 
 # --- Option C: Morph — glassmorphism, modern ---
-# format:
-#   html:
-#     theme: morph
-#     css: styles.css
+format:
+  html:
+    theme: morph
+    css: styles.css
 
 # --- Option D: Light/Dark user toggle ---
 # format:
