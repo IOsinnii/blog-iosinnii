@@ -3,5 +3,6 @@
 .RData
 .Ruserdata
 .positai
-/_site/posts
+/_site/
+/_freeze/
 /.quarto/
