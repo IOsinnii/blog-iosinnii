@@ -41,8 +41,9 @@ website:
 # --- Option C: Morph — glassmorphism, modern ---
 format:
   html:
-    theme: morph
-    css: styles.css
+    theme:
+      - morph
+      - custom.scss
 
 # --- Option D: Light/Dark user toggle ---
 # format:
