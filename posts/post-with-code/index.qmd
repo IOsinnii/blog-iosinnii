@@ -1,6 +1,6 @@
 ---
 title: "Post With Code"
-author: "Harlow Malloc"
+author: "Ivan Osinnii"
 date: "2026-04-11"
 categories: [news, code, analysis]
 image: "image.jpg"

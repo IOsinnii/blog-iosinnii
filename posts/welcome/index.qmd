@@ -1,6 +1,6 @@
 ---
 title: "Welcome To My Blog"
-author: "Tristan O'Malley"
+author: "Ivan Osinnii"
 date: "2026-04-08"
 categories: [news]
 ---

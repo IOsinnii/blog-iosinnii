@@ -1,7 +1,0 @@
-/* css styles */
-
-.about-image.round {
-  object-fit: cover;
-  object-position: 50% 20%;
-  transform: scale(1.2) translateY(-10px);
-}

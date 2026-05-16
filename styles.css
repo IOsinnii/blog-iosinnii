@@ -1,1 +1,49 @@
-/* css styles */
+/* Ivan Osinnii brand colors — match about.qmd */
+
+:root {
+  --bs-primary: #003559;
+  --bs-primary-rgb: 0, 53, 89;
+}
+
+/* Navbar background */
+.navbar {
+  background-color: #003559 !important;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #ffffff !important;
+}
+
+.navbar .nav-link:hover {
+  color: #e8e8e8 !important;
+}
+
+/* Page title banners */
+.quarto-title-block-banner {
+  background-color: #003559 !important;
+  color: #ffffff !important;
+}
+
+.quarto-title-block-banner a {
+  color: #ffffff !important;
+}
+
+/* Buttons and links inherit primary color */
+.btn-primary {
+  background-color: #003559;
+  border-color: #003559;
+}
+
+.btn-primary:hover {
+  background-color: #002541;
+  border-color: #002541;
+}
+
+a {
+  color: #003559;
+}
+
+a:hover {
+  color: #002541;
+}

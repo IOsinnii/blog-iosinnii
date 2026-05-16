@@ -1,17 +1,64 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "Personal website"
+  title: "Ivan Osinnii"
+  site-url: "https://iosinnii.github.io/blog-iosinnii/"
   navbar:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/
+        href: https://github.com/IOsinnii
+  page-footer:
+    center: "© 2026 Ivan Osinnii"
+
+# ─────────────────────────────────────────────
+# ACTIVE THEME — Cosmo (Bootstrap default, clean)
+# ─────────────────────────────────────────────
 format:
   html:
     theme: cosmo
     css: styles.css
+
+# ─────────────────────────────────────────────
+# ALTERNATIVE THEMES — uncomment one block to switch
+# (comment out the active block above first)
+# ─────────────────────────────────────────────
+
+# --- Option A: Flatly — clean, professional ---
+# format:
+#   html:
+#     theme: flatly
+#     css: styles.css
+
+# --- Option B: Litera — editorial, minimal ---
+# format:
+#   html:
+#     theme: litera
+#     css: styles.css
+
+# --- Option C: Morph — glassmorphism, modern ---
+# format:
+#   html:
+#     theme: morph
+#     css: styles.css
+
+# --- Option D: Light/Dark user toggle ---
+# format:
+#   html:
+#     theme:
+#       light: flatly
+#       dark: darkly
+#     css: styles.css
+
+# --- Option E: Custom SCSS overlay on Cosmo (brand palette + font) ---
+# Requires: custom.scss in project root (template provided in styles-custom.scss)
+# format:
+#   html:
+#     theme:
+#       - cosmo
+#       - custom.scss
 
 editor: visual
 
