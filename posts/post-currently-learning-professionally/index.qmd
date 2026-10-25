@@ -6,6 +6,8 @@ categories: [learning, ai-agents, pharma-rd, spatial-omics, musculoskeletal, mac
 image: "learning_roadmap.svg"
 ---
 
+![](learning_roadmap.svg){fig-alt="Professional Learning & Research Radar" width="100%"}
+
 In computational biology and translational data science, the ground shifts underneath your feet almost every quarter. Between new spatial multi-omics technologies, modern package managers, the realities of pharmaceutical R&D pipelines, and the rapid evolution of agentic AI workflows, a big part of my weekly routine is dedicated to structured learning and note-taking.
 
 Recently, I looked back through my personal Notion `LEARN` and conference hubs to take stock of what I have been studying, testing, and refining professionally. Here is a synthesis of the six major tracks on my desk right now—plus the community events I am most excited to attend next and why I am deeply motivated to bring my ongoing research on **tendinopathy and osteoarthritis (OA)** across the finish line.
