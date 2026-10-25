@@ -29,11 +29,6 @@ title-block-banner-color: "white"
 
           <ul class="network-icon" aria-label="Social and Academic Links">
             <li>
-              <a href="mailto:osenniy.ivan@gmail.com" title="Email">
-                <i class="bi bi-envelope-fill big-icon"></i>
-              </a>
-            </li>
-            <li>
               <a href="https://linkedin.com/in/ivan-osinnii" target="_blank" rel="noopener" title="LinkedIn">
                 <i class="bi bi-linkedin big-icon"></i>
               </a>
@@ -183,7 +178,7 @@ title-block-banner-color: "white"
 
         <div class="pub-item">
           <h3 class="pub-title">
-            <a href="https://www.biorxiv.org/content/10.1101/2026.02.18.706558v1" target="_blank" rel="noopener">
+            <a href="https://www.biorxiv.org/content/10.64898/2026.10.12.758439v1" target="_blank" rel="noopener">
               GPNMB enables lysosomal adaptation required for myelin clearance and nerve regeneration after peripheral nerve injury
             </a>
           </h3>
@@ -191,12 +186,13 @@ title-block-banner-color: "white"
             N. Ouali Alami, M. Panesar, M. Obrecht, T. Doll, <strong>I. Osinnii</strong>, et al.
           </div>
           <div class="pub-meta">
-            <span class="pub-date">2026</span>
+            <span class="pub-date">October 2026</span>
             <span class="middot-divider">·</span>
             <span class="pub-journal"><em>bioRxiv</em></span>
           </div>
           <div class="pub-links">
-            <a class="btn btn-outline-primary btn-sm" href="https://www.biorxiv.org/content/10.1101/2026.02.18.706558v1" target="_blank" rel="noopener">Preprint</a>
+            <a class="btn btn-outline-primary btn-sm" href="https://doi.org/10.64898/2026.10.12.758439" target="_blank" rel="noopener">DOI</a>
+            <a class="btn btn-outline-primary btn-sm" href="https://www.biorxiv.org/content/10.64898/2026.10.12.758439v1.full.pdf" target="_blank" rel="noopener">PDF</a>
           </div>
         </div>
 

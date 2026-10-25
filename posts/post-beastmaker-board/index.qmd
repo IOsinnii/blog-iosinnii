@@ -6,9 +6,9 @@ categories: [climbing, DIY, training]
 image: "09_finished_hangboard.jpg"
 ---
 
-Every climber reaches a point in their journey where they look at the empty space above their bedroom door and think: *“I could put a hangboard there.”*
+Recently I started a full-time computational job and, to keep my body in shape, decided to place a climbing hangboard inside my apartment.
 
-This is the story of how that thought became a reality, turning a blank wall into a finger-strength training station. Here is the step-by-step saga of mounting a **Beastmaker 1000 Series** hangboard above a concrete door frame.
+This is the story of how that decision became a reality, turning a blank wall above my doorway into a finger-strength training station. Here is the step-by-step saga of mounting a **Beastmaker 1000 Series** hangboard above a concrete door frame.
 
 ---
 
