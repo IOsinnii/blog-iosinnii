@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://iosinnii.github.io/blog-iosinnii/posts/rps2-a226y-liver-integrated-omics/index.html</loc>
+    <lastmod>2026-10-25T21:37:29.833Z</lastmod>
+  </url>
+  <url>
     <loc>https://iosinnii.github.io/blog-iosinnii/posts/post-beastmaker-board/index.html</loc>
     <lastmod>2026-07-19T19:47:06.135Z</lastmod>
   </url>
@@ -11,5 +15,9 @@
   <url>
     <loc>https://iosinnii.github.io/blog-iosinnii/index.html</loc>
     <lastmod>2026-04-11T19:16:29.713Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iosinnii.github.io/blog-iosinnii/posts/post-macula-disease-knowledge-base/index.html</loc>
+    <lastmod>2026-10-25T21:50:42.741Z</lastmod>
   </url>
 </urlset>
