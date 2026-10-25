@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#001f38" />
+      <stop offset="55%" stop-color="#003559" />
+      <stop offset="100%" stop-color="#004e82" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.14)" />
+      <stop offset="100%" stop-color="rgba(255,255,255,0.05)" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="520" fill="url(#bg)" rx="14" />
+
+  <!-- Subtle Grid Lines -->
+  <g stroke="rgba(255,255,255,0.05)" stroke-width="1">
+    <line x1="0" y1="95" x2="900" y2="95" />
+    <line x1="0" y1="295" x2="900" y2="295" />
+    <line x1="300" y1="0" x2="300" y2="520" />
+    <line x1="600" y1="0" x2="600" y2="520" />
+  </g>
+
+  <!-- Title Header -->
+  <text x="450" y="48" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="700" text-anchor="middle" letter-spacing="0.6">
+    PROFESSIONAL LEARNING &amp; RESEARCH RADAR
+  </text>
+  <text x="450" y="74" fill="#9bc2df" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="400" text-anchor="middle">
+    Agentic AI · Reproducible Tooling · Multi-Omics ML · Pharma Target ID · OA &amp; Tendon Biology · Communication
+  </text>
+
+  <!-- Row 1, Card 1: Agentic AI & MCP -->
+  <g transform="translate(30, 102)">
+    <rect width="265" height="182" rx="10" fill="url(#cardGrad)" stroke="rgba(155,194,223,0.35)" stroke-width="1.5" />
+    <circle cx="28" cy="30" r="13" fill="#38bdf8" fill-opacity="0.22" />
+    <text x="28" y="35" fill="#38bdf8" font-family="Inter, sans-serif" font-size="13" font-weight="700" text-anchor="middle">01</text>
+    <text x="50" y="35" fill="#ffffff" font-family="Inter, sans-serif" font-size="15" font-weight="700">Agentic AI &amp; MCP</text>
+    <text x="18" y="66" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• LLM + Harness + Tools + Loop</text>
+    <text x="18" y="92" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• AGENTS.md &amp; subagent workflows</text>
+    <text x="18" y="118" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• Model Context Protocol (MCP)</text>
+    <text x="18" y="144" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• AI Research Hackathons</text>
+  </g>
+
+  <!-- Row 1, Card 2: Programming & HPC -->
+  <g transform="translate(317, 102)">
+    <rect width="265" height="182" rx="10" fill="url(#cardGrad)" stroke="rgba(155,194,223,0.35)" stroke-width="1.5" />
+    <circle cx="28" cy="30" r="13" fill="#4ade80" fill-opacity="0.22" />
+    <text x="28" y="35" fill="#4ade80" font-family="Inter, sans-serif" font-size="13" font-weight="700" text-anchor="middle">02</text>
+    <text x="50" y="35" fill="#ffffff" font-family="Inter, sans-serif" font-size="15" font-weight="700">Programming &amp; HPC</text>
+    <text x="18" y="66" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• R / Bioconductor (S3/S4, Seurat)</text>
+    <text x="18" y="92" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• Fast Python environments (uv)</text>
+    <text x="18" y="118" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• Positron / VS Code ergonomics</text>
+    <text x="18" y="144" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• UNIX, SSH &amp; HPC job pipelines</text>
+  </g>
+
+  <!-- Row 1, Card 3: ML & Omics Statistics -->
+  <g transform="translate(605, 102)">
+    <rect width="265" height="182" rx="10" fill="url(#cardGrad)" stroke="rgba(155,194,223,0.35)" stroke-width="1.5" />
+    <circle cx="28" cy="30" r="13" fill="#facc15" fill-opacity="0.22" />
+    <text x="28" y="35" fill="#facc15" font-family="Inter, sans-serif" font-size="13" font-weight="700" text-anchor="middle">03</text>
+    <text x="50" y="35" fill="#ffffff" font-family="Inter, sans-serif" font-size="15" font-weight="700">ML &amp; Omics Stats</text>
+    <text x="18" y="66" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• MINT multivariate integration</text>
+    <text x="18" y="92" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• Wald-stat GSEA &amp; zero-count EDA</text>
+    <text x="18" y="118" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• Stratified clinical sampling</text>
+    <text x="18" y="144" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• Tabular foundation models</text>
+  </g>
+
+  <!-- Row 2, Card 4: Pharma Lifecycle & Target ID -->
+  <g transform="translate(30, 306)">
+    <rect width="265" height="182" rx="10" fill="url(#cardGrad)" stroke="rgba(155,194,223,0.35)" stroke-width="1.5" />
+    <circle cx="28" cy="30" r="13" fill="#fb923c" fill-opacity="0.22" />
+    <text x="28" y="35" fill="#fb923c" font-family="Inter, sans-serif" font-size="13" font-weight="700" text-anchor="middle">04</text>
+    <text x="50" y="35" fill="#ffffff" font-family="Inter, sans-serif" font-size="15" font-weight="700">Pharma &amp; Target ID</text>
+    <text x="18" y="66" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• R&amp;D lifecycle &amp; pipeline dynamics</text>
+    <text x="18" y="92" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• Multimodal target discovery</text>
+    <text x="18" y="118" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• Fast-progressor trial biomarkers</text>
+    <text x="18" y="144" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• Knowledge graphs vs. smoothing</text>
+  </g>
+
+  <!-- Row 2, Card 5: Tendinopathy, OA & Spatial Omics -->
+  <g transform="translate(317, 306)">
+    <rect width="265" height="182" rx="10" fill="url(#cardGrad)" stroke="rgba(155,194,223,0.35)" stroke-width="1.5" />
+    <circle cx="28" cy="30" r="13" fill="#f472b6" fill-opacity="0.22" />
+    <text x="28" y="35" fill="#f472b6" font-family="Inter, sans-serif" font-size="13" font-weight="700" text-anchor="middle">05</text>
+    <text x="50" y="35" fill="#ffffff" font-family="Inter, sans-serif" font-size="15" font-weight="700">Tendon, OA &amp; Spatial</text>
+    <text x="18" y="66" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• EORS 2026: fibrosis resolution</text>
+    <text x="18" y="92" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• 2 µm spatial omics + micro-CT</text>
+    <text x="18" y="118" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• Basel Spatial Omics Day</text>
+    <text x="18" y="144" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• Sports &amp; trauma biomechanics</text>
+  </g>
+
+  <!-- Row 2, Card 6: Soft Skills, Toastmasters & Web -->
+  <g transform="translate(605, 306)">
+    <rect width="265" height="182" rx="10" fill="url(#cardGrad)" stroke="rgba(155,194,223,0.35)" stroke-width="1.5" />
+    <circle cx="28" cy="30" r="13" fill="#c084fc" fill-opacity="0.22" />
+    <text x="28" y="35" fill="#c084fc" font-family="Inter, sans-serif" font-size="13" font-weight="700" text-anchor="middle">06</text>
+    <text x="50" y="35" fill="#ffffff" font-family="Inter, sans-serif" font-size="15" font-weight="700">Soft Skills &amp; Web</text>
+    <text x="18" y="66" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• Toastmasters Presentation Mastery</text>
+    <text x="18" y="92" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• Economist-style chart hierarchy</text>
+    <text x="18" y="118" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• Stakeholder alignment &amp; coaching</text>
+    <text x="18" y="144" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• Quarto, Shiny &amp; 3D web graphs</text>
+  </g>
+</svg>
