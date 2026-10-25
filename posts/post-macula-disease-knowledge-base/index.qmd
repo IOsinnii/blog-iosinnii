@@ -45,7 +45,7 @@ It has four parts:
 
 ### How it's built
 
-I built it together with an AI coding assistant (Claude Code), but with strict rules about where knowledge is allowed to come from:
+I built it together with an AI coding assistant according to the [tutorial kindly shared by John Damask](https://claude.ai/artifact/ToTMR5H9ZV1njDrjQ3DRgq){target="_blank"} after his public presentation on building research knowledge bases with AI. Kudos to that clear step-wise explanation! It follows strict rules about where knowledge is allowed to come from:
 
 1.  **Sources go into a `raw/` folder and are never edited.** So far these are four recent open-access reviews (2024–2026): a broad clinical update, a review of the molecular mechanisms, a review of therapeutic options, and a perspective comparing faricimab with high-dose aflibercept.
 2.  **The wiki is written from those sources only.** Each page covers one idea, drug or trial, and every factual sentence ends with a citation to the source file it came from. When the assistant combines several sources into its own conclusion, that's explicitly labelled as *synthesis*.
