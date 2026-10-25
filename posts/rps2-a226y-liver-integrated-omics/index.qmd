@@ -1,0 +1,178 @@
+---
+title: "Integrated Transcriptome-Metabolome Analysis of Rps2-A226Y Mutant Liver"
+author: "Ivan Osinnii"
+date: "2026-06-01"
+categories: [analysis, metabolomics, transcriptomics, systems-biology]
+image: "thumbnail.png"
+---
+
+## Why This Analysis
+
+This post summarizes an integrated liver omics analysis in female mice carrying
+Rps2-A226Y, comparing mutant versus wildtype at two corrected ages: **9 months**
+and **15 months**.
+
+The workflow combines differential transcriptomics and metabolomics to identify
+pathway-level progression across time, with emphasis on bile acid metabolism,
+oxidative stress, lipid remodeling, and protein quality control pathways.
+
+## Data Note
+
+The original source file names contain "6m" and "12m", but the corrected cohort
+labels used for interpretation are **9m** and **15m**.
+
+## Figure Overview
+
+::: {.panel-tabset}
+
+### Pathway-Level Shifts
+
+#### 15 Months
+
+![](fig_butterfly_15m.png)
+
+#### 9 Months
+
+![](fig_butterfly_9m.png)
+
+### Gene-Metabolite Detail
+
+#### 15 Months
+
+![](fig_dots_15m.png)
+
+#### 9 Months
+
+![](fig_dots_9m.png)
+
+### Temporal Progression
+
+#### Fold-Change Concordance
+
+![](fig_temporal_scatter.png)
+
+#### Pathway Progression
+
+![](fig_temporal_pathway.png)
+
+#### Key Metabolite Trajectories
+
+![](fig_metabolite_trajectory.png)
+
+### Enrichment and Integration
+
+#### KEGG/Reactome Comparison
+
+![](fig_enrichment_comparison.png)
+
+#### Integrated Pathway Heatmap
+
+![](fig_integrated_heatmap.png)
+
+### Data Discovery
+
+#### Super-Pathway Distribution
+
+![](fig_super_pathway_dist.png)
+
+#### Volcano Plots — Metabolomics
+
+![](fig_volcano_met.png)
+
+#### Volcano Plots — Transcriptomics
+
+![](fig_volcano_tx.png)
+
+#### Fold-Change Distributions
+
+![](fig_fc_distribution.png)
+
+### Sphingolipid & Lysosomal Deep Dive
+
+#### Ceramide Chain-Length
+
+![](fig_ceramide_chain_length.png)
+
+#### Sphingomyelin Species
+
+![](fig_sm_species.png)
+
+#### Sphingolipid Gene Panel
+
+![](fig_sl_gene_panel.png)
+
+#### Lysosomal Gene Panel
+
+![](fig_lysosomal_panel.png)
+
+#### XIAP–CathepsinB–SMPD1 Axis
+
+![](fig_xiap_axis.png)
+
+### GSEA & Cross-Omics Concordance
+
+#### GSEA Comparison (fgsea + MSigDB)
+
+![](fig_gsea_comparison.png)
+
+#### Pathway Concordance
+
+![](fig_concordance.png)
+
+### Enrichment Annotation Audit
+
+#### SMPDB Coverage by Chemical Class - 9 Months
+
+![](fig_coverage_9m.png)
+
+#### SMPDB Coverage by Chemical Class - 15 Months
+
+![](fig_coverage_15m.png)
+
+#### Effect of Background Choice
+
+![](fig_background_effect.png)
+
+#### Observed vs Expected Hits
+
+![](fig_observed_expected.png)
+
+:::
+
+## Main Biological Takeaways
+
+1. The mutant phenotype is progressive from 9m to 15m across both omics layers.
+2. Bile acid pathway dysregulation strengthens with age and remains a dominant signature.
+3. Stress-adaptation programs appear stronger earlier, with altered regulatory balance later.
+4. Lipid and antioxidant pathway changes support age-dependent metabolic remodeling.
+5. Most strongly significant features preserve direction across time, with selective switches.
+6. Sphingomyelin species accumulate broadly, consistent with a chain-length-dependent
+   ceramide synthase (Cers2/Cers4) shift toward the SM-conversion arm of the pathway.
+7. Lysosomal genes, especially cathepsins, are broadly downregulated alongside XIAP
+   upregulation, consistent with a lysosome-linked anti-apoptotic adaptation.
+8. Pre-ranked GSEA (fgsea + MSigDB) independently recovers bile acid metabolism and
+   proteasome/protein-degradation signatures among the top pathways.
+9. Gene-metabolite concordance is not uniform across pathways: some (amino acid,
+   purine/pyrimidine) agree in direction, while bile acid and lipid pathways show
+   more disagreement worth further investigation.
+10. A database-driven enrichment cross-check (SMPDB via MetaboAnalystR) is only weakly
+    informative here: roughly 20% of measured metabolites appear in SMPDB, and that
+    subset is biased against lipids. Correcting the statistical background from the
+    pathway library to the measured metabolome weakens every contrast by about an order
+    of magnitude, leaving no FDR-significant pathway at either age.
+11. What remains is a nominal, uncorrected tendency toward depletion of TCA-adjacent
+    intermediates and carnitine at 9 months, driven by a small overlapping metabolite set.
+
+## Reproducibility Note
+
+This post is built from pre-rendered analysis outputs generated in the
+analysis notebooks:
+
+- 01_data_loading_and_pathway_analysis.qmd
+- 02_temporal_comparison_and_integration.qmd
+- 03_data_discovery_and_deepened_analysis.qmd
+- 04_metaboanalystr_enrichment.qmd
+- 05_enrichment_background_audit.qmd
+
+Figures are embedded directly so the post remains lightweight and stable with
+Quarto freeze in the blog repository.
