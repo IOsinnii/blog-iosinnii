@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Ivan Osinnii"
+  title: "Personal Blog"
   site-url: "https://iosinnii.github.io/blog-iosinnii/"
   navbar:
     right:
