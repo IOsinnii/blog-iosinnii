@@ -1,0 +1,92 @@
+---
+title: "Mounting the Beast: A DIY Guide to Installing a Beastmaker 1000 Hangboard"
+author: "Ivan Osinnii"
+date: "2025-01-18"
+categories: [climbing, DIY, training]
+image: "09_finished_hangboard.jpg"
+---
+
+Every climber reaches a point in their journey where they look at the empty space above their bedroom door and think: *“I could put a hangboard there.”*
+
+This is the story of how that thought became a reality, turning a blank wall into a finger-strength training station. Here is the step-by-step saga of mounting a **Beastmaker 1000 Series** hangboard above a concrete door frame.
+
+---
+
+### Step 1: The Blank Canvas
+
+It all starts with a dream and a blank wall. The space above a doorway is ideal because it allows your legs and body to hang freely, but it is also a high-stress area. You cannot simply screw a hangboard directly into the plaster; you need a solid plan to anchor it safely.
+
+![The empty wall above the doorway—full of potential, but currently blank.](01_empty_wall.jpg)
+
+---
+
+### Step 2: The Foundation (Metolius Backing Board)
+
+To avoid tearing down the wall and to distribute the forces evenly, we use a wooden backing board (in this case, a Metolius mounting board). This board is anchored securely into the solid wall structure, providing a stable, flat surface to screw the Beastmaker into. 
+
+![The pre-drilled Metolius backing board, waiting to bridge the gap between the wall and the hangboard.](02_backing_board.jpg)
+
+---
+
+### Step 3: Unboxing the Beast & Preparing the Power
+
+With the backing board ready, it was time to open the main event: the **Beastmaker 1000**. Alongside the beautiful wooden board, I dug out my trusty **Texmash TDU-1000** impact drill. A solid drill is non-negotiable when dealing with concrete or brick walls.
+
+![Unboxing the Beastmaker and prepping the Texmash TDU-1000 drill.](03_drill_and_box.jpg)
+
+---
+
+### Step 4: Organizing the Arsenal
+
+DIY projects live and die by preparation. I gathered the essential tools for the job:
+*   A **LUX-TOOLS 40 cm spirit level** (crucial—nobody wants to train on a slanted board).
+*   A utility knife for opening packages and clean cuts.
+*   A masonry drill bit matching the anchor size.
+*   A screwdriver and selection of screws.
+
+![Gathering the essential tools for a precise installation.](04_tools_selection.jpg)
+
+---
+
+### Step 5: Choosing the Right Anchors
+
+When hanging your body weight (plus dynamic force) off a wall, cheap drywall screws won't cut it. I opted for **Fischer S 8x40** wall plugs (8mm diameter, 40mm depth) and matching heavy-duty black wood screws. 
+
+> [!TIP]
+> Always check the packaging recommendations. For the Fischer S 8x40, a hole depth of at least 50mm and an 8mm drill bit are required for maximum load capacity.
+
+![Fischer S 8x40 wall plugs and heavy-duty screws—the unsung heroes of this project.](05_wall_plugs.jpg)
+
+---
+
+### Step 6: Making the Holes
+
+With the backing board held up and leveled, I marked the drilling points. Then came the noisy, messy part: drilling the 12 anchor holes. You can see the neat little piles of concrete dust resting on top of the door frame, a testament to the Texmash's impact mode.
+
+![Twelve clean holes drilled above the door frame. Measure twice, drill once!](06_drilled_holes.jpg)
+
+---
+
+### Step 7: Inserting Anchors & Preparing Screws
+
+Next, the Fischer wall plugs were tapped into the holes, and the long black screws were started. Having the screws partially inserted in the wall beforehand makes aligning and mounting the heavy wooden backing board much easier.
+
+![The screws aligned and ready to catch the backing board.](07_screws_in_wall.jpg)
+
+---
+
+### Step 8: Securing the Backing Board
+
+The backing board is up! It went on smoothly and was screwed tight until it was completely flush with the wall. A quick check with the spirit level confirmed everything was perfectly horizontal.
+
+![The Metolius backing board is securely mounted and leveled.](08_mounted_backing_board.jpg)
+
+---
+
+### Step 9: Unleashing the Beastmaker
+
+Finally, the moment of truth. The Beastmaker 1000 was aligned on the backing board and screwed in using the wood screws provided. The wood-on-wood mount is incredibly strong and looks fantastic. 
+
+![The finished setup: The Beastmaker 1000 is ready for training.](09_finished_hangboard.jpg)
+
+With the board solid as a rock, it was time to chalk up and test the 35-degree slopers. Let the training sessions begin!
