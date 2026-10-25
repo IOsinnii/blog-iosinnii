@@ -31,7 +31,7 @@ $footer-fg:         #ffffff;
 /*-- scss:rules --*/
 
 /* Import Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
 
 /* Force body color globally */
 body {
@@ -130,4 +130,284 @@ div.about-contents {
 .btn-primary:hover {
   background-color: #002541 !important;
   border-color: #002541 !important;
+}
+
+/* ─────────────────────────────────────────────────────────
+   Academic About Page Styling (Hugo Academic / Robin Dunn style)
+   ───────────────────────────────────────────────────────── */
+
+.academic-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem 1rem;
+}
+
+.academic-section {
+  padding: 2.25rem 0;
+  border-bottom: 1px solid rgba(0, 53, 89, 0.14);
+}
+
+.academic-section:first-child {
+  padding-top: 1rem;
+}
+
+.academic-section:last-child {
+  border-bottom: none;
+}
+
+/* Left Column: Profile Card */
+.academic-profile {
+  text-align: center;
+  padding: 0.5rem 1rem 1.5rem 1rem;
+}
+
+.academic-avatar {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 18%;
+  box-shadow: 0 8px 24px rgba(0, 53, 89, 0.16);
+  margin: 0 auto 1.25rem auto;
+  display: block;
+  border: 3px solid rgba(255, 255, 255, 0.85);
+}
+
+.portrait-title h2 {
+  font-size: 1.65rem;
+  font-weight: 700;
+  margin-top: 0.25rem;
+  margin-bottom: 0.4rem;
+  color: $primary !important;
+}
+
+.portrait-title h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+  opacity: 0.88;
+}
+
+.portrait-title h3 a {
+  color: $primary !important;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.portrait-title h3 a:hover {
+  text-decoration: underline;
+}
+
+/* Social / Academic Icon Row */
+.network-icon {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 1.15rem 0 0 0;
+  gap: 1.1rem;
+}
+
+.network-icon li {
+  display: inline-flex;
+  align-items: center;
+}
+
+.network-icon a {
+  color: $primary !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.18s ease, opacity 0.18s ease;
+  text-decoration: none;
+}
+
+.network-icon a:hover {
+  transform: scale(1.15) translateY(-2px);
+  opacity: 0.8;
+}
+
+.big-icon {
+  font-size: 1.85rem;
+  line-height: 1;
+}
+
+.orcid-svg {
+  width: 1.85rem;
+  height: 1.85rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Right Column & Section Headings */
+.academic-section-title,
+.section-heading h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 1.1rem;
+  border-bottom: none;
+}
+
+/* Interests & Education Lists */
+.ul-interests {
+  padding-left: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.ul-interests li {
+  margin-bottom: 0.4rem;
+  line-height: 1.45;
+}
+
+.ul-edu {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0.5rem;
+}
+
+.ul-edu li {
+  position: relative;
+  padding-left: 2.1rem;
+  margin-bottom: 0.95rem;
+}
+
+.ul-edu .edu-icon {
+  position: absolute;
+  left: 0;
+  top: 0.15rem;
+  font-size: 1.25rem;
+  color: $primary;
+}
+
+.ul-edu .description p.course {
+  margin: 0;
+  font-weight: 600;
+  font-size: 0.98rem;
+  line-height: 1.35;
+}
+
+.ul-edu .description p.institution {
+  margin: 0.1rem 0 0 0;
+  font-size: 0.88rem;
+  opacity: 0.78;
+}
+
+/* Experience Stream */
+.exp-item {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.15rem;
+  border-bottom: 1px solid rgba(0, 53, 89, 0.08);
+}
+
+.exp-item:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.exp-role {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.exp-date {
+  font-size: 0.88rem;
+  font-weight: 600;
+  opacity: 0.75;
+}
+
+.exp-org {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0.15rem 0 0.45rem 0;
+  opacity: 0.88;
+}
+
+.exp-details {
+  margin-bottom: 0;
+  padding-left: 1.2rem;
+  font-size: 0.94rem;
+}
+
+.exp-details li {
+  margin-bottom: 0.25rem;
+}
+
+/* Publications Stream */
+.pub-item {
+  margin-bottom: 1.65rem;
+}
+
+.pub-item:last-child {
+  margin-bottom: 0;
+}
+
+.pub-title {
+  font-size: 1.12rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+  line-height: 1.38;
+}
+
+.pub-title a {
+  color: $primary !important;
+  text-decoration: none;
+}
+
+.pub-title a:hover {
+  text-decoration: underline;
+}
+
+.pub-authors {
+  font-size: 0.93rem;
+  opacity: 0.88;
+  margin-bottom: 0.2rem;
+  line-height: 1.45;
+}
+
+.pub-meta {
+  font-size: 0.88rem;
+  opacity: 0.8;
+  margin-bottom: 0.5rem;
+}
+
+.middot-divider {
+  margin: 0 0.35rem;
+  font-weight: bold;
+}
+
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.pub-links .btn-outline-primary {
+  color: $primary !important;
+  border-color: $primary !important;
+  padding: 0.2rem 0.65rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: 0.35rem;
+  background: transparent;
+  box-shadow: none;
+}
+
+.pub-links .btn-outline-primary:hover {
+  background-color: $primary !important;
+  color: #ffffff !important;
 }
