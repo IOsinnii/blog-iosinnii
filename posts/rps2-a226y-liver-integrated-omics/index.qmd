@@ -6,7 +6,7 @@ categories: [analysis, metabolomics, transcriptomics, systems-biology]
 image: "thumbnail.png"
 ---
 
-Mammalian liver coordinates glucose, lipid and amino-acid metabolism, which makes it a sensible tissue for asking how a body-wide proteostatic stress shows up in metabolism. This post looks at liver transcriptomics and metabolomics from female Rps2-A226Y knock-in mice, which carry a ribosomal ambiguity mutation that increases missense mistranslation, compared with Cre-expressing wild-type controls. The mutant allele is expressed mosaically, and the mutant transcript accounts for roughly a quarter of liver Rps2 mRNA, so effect sizes should be read as diluted relative to the full mutant effect. Sample ages are reported as recorded in the metadata and are being checked against the animal records.
+Mammalian liver coordinates glucose, lipid and amino-acid metabolism, which makes it a sensible tissue for asking how a body-wide proteostatic stress shows up in metabolism. This post looks at liver transcriptomics and metabolomics from female Rps2-A226Y knock-in mice, which carry a ribosomal ambiguity mutation that increases missense mistranslation, compared with Cre-expressing wild-type controls. The mutant allele is expressed mosaically, and the mutant transcript accounts for roughly a quarter of liver Rps2 mRNA, so effect sizes should be read as diluted relative to the full mutant effect. Sample ages are reported as recorded in the metadata and are being checked against the animal records. This analysis is my part of a PhD project carried out between 2020 and 2022.
 
 ## Why This Analysis
 
@@ -18,10 +18,6 @@ The workflow combines differential transcriptomics and metabolomics to identify
 pathway-level progression across time, with emphasis on bile acid metabolism,
 oxidative stress, lipid remodeling, and protein quality control pathways.
 
-## Data Note
-
-The original source file names contain "6m" and "12m", but the corrected cohort
-labels used for interpretation are **9m** and **15m**.
 
 ## Figure Overview
 
