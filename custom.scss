@@ -92,8 +92,22 @@ div.about-contents {
 .title-block-banner h2,
 .title-block-banner p,
 .title-block-banner span,
-.title-block-banner a {
+.title-block-banner a,
+.quarto-title-block h1,
+.quarto-title-block h2,
+.quarto-title-block p,
+.quarto-title-block span,
+.quarto-title-block a,
+.quarto-title-block div,
+.quarto-title-meta-heading,
+.quarto-title-meta-contents,
+.quarto-title-meta-contents p,
+.quarto-title .quarto-categories .quarto-category {
   color: #ffffff !important;
+}
+
+.quarto-title .quarto-categories .quarto-category {
+  border-color: rgba(255, 255, 255, 0.6) !important;
 }
 
 /* Navbar — KEEP WHITE */
@@ -117,13 +131,27 @@ div.about-contents {
 .navbar a,
 .navbar button,
 .navbar span,
-.nav-link,
+.navbar .nav-link,
 .navbar-brand {
   color: #ffffff !important;
 }
 
-.nav-link:hover {
+.navbar .nav-link:hover {
   color: #e8e8e8 !important;
+}
+
+/* Tabset buttons: idle = dark blue text, active = keep as is (white text on primary) */
+.panel-tabset .nav-tabs .nav-link:not(.active),
+.nav-tabs .nav-link:not(.active),
+.nav-pills .nav-link:not(.active) {
+  color: $primary !important;
+}
+
+.panel-tabset .nav-tabs .nav-link.active,
+.nav-tabs .nav-link.active,
+.nav-pills .nav-link.active {
+  color: #ffffff !important;
+  background-color: $primary !important;
 }
 
 /* Button hover state */
