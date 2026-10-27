@@ -1,16 +1,16 @@
 ---
-title: "A Knowledge Base for One Decision: Helping My Mother Choose an AMD Treatment"
+title: "A Knowledge Base for One Decision: Helping Family Member Choose an AMD Treatment"
 author: "Ivan Osinnii"
-date: "2026-10-25"
+date: "2026-10-18"
 categories: [health, ophthalmology, knowledge-base, ai-tools]
 image: "kb_wiki_map.png"
 ---
 
-My mother has age-related macular degeneration (AMD). Sooner or later, the conversation with her ophthalmologist will come down to a choice between two injected drugs: **Vabysmo** (faricimab) and **Eylea** (aflibercept). Both are given as injections into the eye, often for years, so the choice matters: it decides how often she has to come in for an injection, and how well the disease stays under control between visits.
+My close relative has age-related macular degeneration (AMD). Sooner or later, the conversation with her ophthalmologist will come down to a choice between two well established injected drugs. Both are given as injections into the eye, often for years, so the choice matters: it decides how often she has to come in for an injection, and how well the disease stays under control between visits.
 
-I didn't want to walk into that appointment knowing only the brand names. So I built a small website, the [**Macula Disease Knowledge Base**](https://iosinnii.github.io/my-kb-macula-disease/), that collects what the clinical trials and recent reviews actually say, with every fact traced back to its source. It isn't meant to replace her doctor. It's meant to help us ask better questions.
+I didn't want to talk with a doctor knowing only the brand names. So I built a small website, the [**Macula Disease Knowledge Base**](https://iosinnii.github.io/my-kb-macula-disease/), that collects what the clinical trials and recent reviews actually say, with every fact traced back to its source. It isn't meant to replace the doctor. It's meant to help us ask better questions.
 
----
+------------------------------------------------------------------------
 
 ### The site
 
@@ -30,18 +30,18 @@ Here it is, live. You can browse it right inside this post, or [open it in a new
 
 It has four parts:
 
-*   **Clinical trials**: plain-language digests of the pivotal trials comparing faricimab with aflibercept: TENAYA & LUCERNE in wet AMD, and YOSEMITE & RHINE in diabetic macular oedema. Each card covers the design, the treatment arms, the exact posted outcomes and the safety.
-*   **Knowledge check**: how AMD works and progresses, explained in layers from basic to molecular. It has hand-drawn diagrams of the eye and of the VEGF / Ang-2 signalling that these drugs target, plus self-check questions, in English and Russian.
-*   **Wiki**: the core of the project. There are 43 pages on diseases, mechanisms, drugs and trials, and every statement cites the paper it came from.
-*   **Wiki map**: a 3-D graph of how all those pages connect. Click any node to read the page.
+- **Clinical trials**: plain-language digests of the pivotal trials comparing faricimab with aflibercept: TENAYA & LUCERNE in wet AMD, and YOSEMITE & RHINE in diabetic macular oedema. Each card covers the design, the treatment arms, the exact posted outcomes and the safety.
+- **Knowledge check**: how AMD works and progresses, explained in layers from basic to molecular. It has hand-drawn diagrams of the eye and of the VEGF / Ang-2 signalling that these drugs target, plus self-check questions.
+- **Wiki**: the core of the project. There are 43 pages on diseases, mechanisms, drugs and trials, and every statement cites the paper it came from.
+- **Wiki map**: a 3-D graph of how all those pages connect. Click any node to read the page.
 
-![The wiki page that matters most for us: what the evidence says about Vabysmo versus Eylea 2 mg and 8 mg, with a source citation after every claim.](kb_wiki_page.png)
+![The wiki page that matters most for us: what the evidence says about macula disease mechanisms and drugs targeting it, with a source citation after every claim.](kb_wiki_page.png)
 
-![The knowledge check in Russian, starting from an annotated diagram of the eye that shows where the macula is.](kb_knowledge_ru.png)
+![The knowledge check in two languages, starting from an annotated diagram of the eye that shows where the macula is.](kb_knowledge_ru.png)
 
 ![The wiki map: one node per page, sized by how many pages link to it and coloured by type (ideas, things, sources).](kb_wiki_map.png)
 
----
+------------------------------------------------------------------------
 
 ### How it's built
 
@@ -54,30 +54,22 @@ I built it together with an AI coding assistant according to the [tutorial kindl
 
 One command regenerates the website's wiki and the 3-D map after every update. The whole site is static files hosted for free on GitHub Pages, and the [source is on GitHub](https://github.com/IOsinnii/my-kb-macula-disease). I've since turned the setup into a reusable template, so I can start the same kind of knowledge base on any other topic in a minute.
 
----
+------------------------------------------------------------------------
 
 ### What I've learned so far
 
 From the evidence collected so far (summarised on the site's [decision page](https://iosinnii.github.io/my-kb-macula-disease/wiki.html#faricimab-vs-aflibercept){target="_blank"}):
 
-*   **Both newer options keep vision as well as standard Eylea.** In the TENAYA & LUCERNE trials, Vabysmo given up to every 16 weeks was non-inferior to Eylea 2 mg every 8 weeks. In the PULSAR trial, high-dose Eylea 8 mg given every 12 or 16 weeks was too.
-*   **The realistic gain is fewer injections, not better vision.** About 45% of patients on Vabysmo were already on 16-week intervals after the first year.
-*   **Fewer injections matters in real life.** Outside trials, patients often get fewer injections than they need, and vision suffers. Reviews call this the "durability gap".
-*   **There's no head-to-head trial of Vabysmo versus Eylea 8 mg.** Both were tested against the same comparator, but never against each other, so any comparison between them is indirect.
-*   **The extra mechanism isn't proven to matter yet.** Vabysmo also blocks angiopoietin-2, which should stabilise blood vessels. But a phase 2 trial found no clear benefit from that part, and its longer intervals may partly come from the dose.
-*   **Safety looked similar in the trials.** Neither drug caused more eye inflammation than standard Eylea.
+- **Both newer options keep vision as well as standard Eylea.** In the TENAYA & LUCERNE trials, Vabysmo given up to every 16 weeks was non-inferior to Eylea 2 mg every 8 weeks. In the PULSAR trial, high-dose Eylea 8 mg given every 12 or 16 weeks was too.
 
-### Questions we'll take to the ophthalmologist
+- **The realistic gain is fewer injections, not better vision.** About 45% of patients on Vabysmo were already on 16-week intervals after the first year.
 
-*   How often would each option need to be injected *for her*, and how is the interval adjusted?
-*   Which drugs are available and covered here, including Eylea 8 mg?
-*   If fluid persists on one drug, is switching to the other an option?
-*   What signs at home (e.g. on an Amsler grid) should prompt an earlier visit?
+- **Fewer injections matters in real life.** Outside trials, patients often get fewer injections than they need, and vision suffers. Reviews call this the "durability gap".
 
----
+- **There's no head-to-head trial of Vabysmo versus Eylea 8 mg.** Both were tested against the same comparator, but never against each other, so any comparison between them is indirect.
 
-### What's next
+- **The extra mechanism isn't proven to matter yet.** Vabysmo also blocks angiopoietin-2, which should stabilise blood vessels. But a phase 2 trial found no clear benefit from that part, and its longer intervals may partly come from the dose.
 
-The site's task list already has the next questions: long-term (3-year) results and any head-to-head comparisons, real-world safety data since approval, and what happens when patients switch drugs. As I add sources, the wiki, the map and the site update together.
+- **Safety looked similar in the trials.** Neither drug caused more eye inflammation than standard Eylea.
 
-*This is a family project to understand the evidence. It isn't medical advice, and every treatment decision belongs with her ophthalmologist.*
+- *This is a family project to understand the evidence. It isn't medical advice, and every treatment decision belongs with her ophthalmologist.*
