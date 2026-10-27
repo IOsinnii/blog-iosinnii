@@ -48,7 +48,7 @@
     <circle cx="28" cy="30" r="13" fill="#4ade80" fill-opacity="0.22" />
     <text x="28" y="35" fill="#4ade80" font-family="Inter, sans-serif" font-size="13" font-weight="700" text-anchor="middle">02</text>
     <text x="50" y="35" fill="#ffffff" font-family="Inter, sans-serif" font-size="15" font-weight="700">Programming &amp; HPC</text>
-    <text x="18" y="66" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• R / Bioconductor (S3/S4, Seurat)</text>
+    <text x="18" y="66" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• Python (scanpy, matplotlib, PyTorch)</text>
     <text x="18" y="92" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• Fast Python environments (uv)</text>
     <text x="18" y="118" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• Positron / VS Code ergonomics</text>
     <text x="18" y="144" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• UNIX, SSH &amp; HPC job pipelines</text>
@@ -83,10 +83,10 @@
     <rect width="265" height="182" rx="10" fill="url(#cardGrad)" stroke="#9bc2df" stroke-opacity="0.35" stroke-width="1.5" />
     <circle cx="28" cy="30" r="13" fill="#f472b6" fill-opacity="0.22" />
     <text x="28" y="35" fill="#f472b6" font-family="Inter, sans-serif" font-size="13" font-weight="700" text-anchor="middle">05</text>
-    <text x="50" y="35" fill="#ffffff" font-family="Inter, sans-serif" font-size="15" font-weight="700">Tendon, OA &amp; Spatial</text>
+    <text x="50" y="35" fill="#ffffff" font-family="Inter, sans-serif" font-size="15" font-weight="700">Tendon, OA &amp; Inflammation</text>
     <text x="18" y="66" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• EORS 2026: fibrosis resolution</text>
-    <text x="18" y="92" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• 2 µm spatial omics + micro-CT</text>
-    <text x="18" y="118" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• Basel Spatial Omics Day</text>
+    <text x="18" y="92" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• Peripheral immune crosstalk</text>
+    <text x="18" y="118" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• Inflammaging</text>
     <text x="18" y="144" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• Sports &amp; trauma biomechanics</text>
   </g>
 
@@ -97,7 +97,7 @@
     <text x="28" y="35" fill="#c084fc" font-family="Inter, sans-serif" font-size="13" font-weight="700" text-anchor="middle">06</text>
     <text x="50" y="35" fill="#ffffff" font-family="Inter, sans-serif" font-size="15" font-weight="700">Soft Skills &amp; Web</text>
     <text x="18" y="66" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• Toastmasters Presentation Mastery</text>
-    <text x="18" y="92" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• Economist-style chart hierarchy</text>
+    <text x="18" y="92" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• Networking &amp; learning from experts</text>
     <text x="18" y="118" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• Stakeholder alignment &amp; coaching</text>
     <text x="18" y="144" fill="#d8e9f6" font-family="Inter, sans-serif" font-size="12">• Quarto, Shiny &amp; 3D web graphs</text>
   </g>

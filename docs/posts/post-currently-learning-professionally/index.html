@@ -2,19 +2,25 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.549">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ivan Osinnii">
 <meta name="dcterms.date" content="2026-10-25">
 
-<title>Personal Blog - What Am I Currently Learning Professionally?</title>
+<title>What Am I Currently Learning Professionally? – Personal Blog</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -32,15 +38,16 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-07e9992820561b8919d78c8e54d93d04.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,8 +76,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -83,7 +90,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -101,7 +108,7 @@ window.Quarto = {
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -113,7 +120,7 @@ window.Quarto = {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -129,7 +136,7 @@ window.Quarto = {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -143,7 +150,7 @@ window.Quarto = {
                 <div class="quarto-category">learning</div>
                 <div class="quarto-category">ai-agents</div>
                 <div class="quarto-category">pharma-rd</div>
-                <div class="quarto-category">spatial-omics</div>
+                <div class="quarto-category">inflammation</div>
                 <div class="quarto-category">musculoskeletal</div>
                 <div class="quarto-category">machine-learning</div>
                 <div class="quarto-category">communication</div>
@@ -184,7 +191,7 @@ window.Quarto = {
 
 
 <p><img src="learning_roadmap.svg" class="img-fluid" style="width:100.0%" alt="Professional Learning &amp; Research Radar"></p>
-<p>In computational biology and translational data science, the ground shifts underneath your feet almost every quarter. Between new spatial multi-omics technologies, modern package managers, the realities of pharmaceutical R&amp;D pipelines, and the rapid evolution of agentic AI workflows, a big part of my weekly routine is dedicated to structured learning and note-taking.</p>
+<p>In computational biology and translational data science, the ground shifts underneath your feet almost every quarter. Between single-cell and multi-omics technologies, modern Python and R tooling, the realities of pharmaceutical R&amp;D pipelines, and the rapid evolution of agentic AI workflows, a big part of my weekly routine is dedicated to structured learning and note-taking.</p>
 <p>Recently, I looked back through my personal Notion <code>LEARN</code> and conference hubs to take stock of what I have been studying, testing, and refining professionally. Here is a synthesis of the six major tracks on my desk right now—plus the community events I am most excited to attend next and why I am deeply motivated to bring my ongoing research on <strong>tendinopathy and osteoarthritis (OA)</strong> across the finish line.</p>
 <hr>
 <section id="agentic-ai-guardrails-and-the-model-context-protocol-mcp" class="level2">
@@ -195,7 +202,7 @@ window.Quarto = {
 </blockquote>
 <section id="the-mental-model-agent-llm-harness-tools-loop" class="level3">
 <h3 class="anchored" data-anchor-id="the-mental-model-agent-llm-harness-tools-loop">The Mental Model: Agent = LLM + Harness + Tools + Loop</h3>
-<p>An AI agent isn’t magic; it is a language model placed inside a <strong>harness</strong>—a surrounding program that exposes <strong>read tools</strong> (listing files, reading code, querying databases) and <strong>write tools</strong> (editing files, running tests, executing shell commands) in an iterative <strong>observe <span class="math inline">\(\rightarrow\)</span> act <span class="math inline">\(\rightarrow\)</span> verify</strong> loop.</p>
+<p>An AI agent isn’t magic; it is a language model placed inside a <strong>harness</strong>—a surrounding program that exposes <strong>read tools</strong> (listing files, reading code, querying databases) and <strong>write tools</strong> (editing files, running tests, executing shell commands) in an iterative <strong>observe</strong> <span class="math inline">\(\rightarrow\)</span> act <span class="math inline">\(\rightarrow\)</span> verify loop.</p>
 </section>
 <section id="beyond-vibe-coding-to-disciplined-ai-assisted-development" class="level3">
 <h3 class="anchored" data-anchor-id="beyond-vibe-coding-to-disciplined-ai-assisted-development">Beyond “Vibe Coding” to Disciplined AI-Assisted Development</h3>
@@ -211,7 +218,7 @@ window.Quarto = {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Hard-Won Lesson: Why Backups &amp; Sandboxes Are Non-Negotiable
+<span class="screen-reader-only">Warning</span>Hard-Won Lesson: Why Backups &amp; Sandboxes Are Non-Negotiable
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -225,8 +232,40 @@ Hard-Won Lesson: Why Backups &amp; Sandboxes Are Non-Negotiable
 <hr>
 </section>
 </section>
+<section id="programming-environment-management-hpc-workflows" class="level2">
+<h2 class="anchored" data-anchor-id="programming-environment-management-hpc-workflows">2. Programming, Environment Management &amp; HPC Workflows</h2>
+<p>Alongside my foundation in <strong>R</strong> (Bioconductor, <code>Seurat</code>, <code>limma</code>, <code>tidyverse</code>) and <strong>Bash</strong>, I have been actively expanding my <strong>Python</strong> scientific stack (<code>scanpy</code>, <code>matplotlib</code>, <code>PyTorch</code>), <strong>HPC cluster workflows</strong>, and <strong>IDE ergonomics</strong>:</p>
+<ul>
+<li><strong>Python for Single-Cell, Visualization &amp; Deep Learning (<code>scanpy</code>, <code>matplotlib</code>, <code>PyTorch</code>)</strong>: Deepening my fluency in Python’s single-cell and ML ecosystem—using <code>scanpy</code> and <code>AnnData</code> for scalable transcriptomics, and building/inspecting neural network architectures in <code>PyTorch</code>. To bring my Python plotting up to the same standard as my <code>ggplot2</code> work in R, I also enrolled in <a href="https://www.matplotlib-journey.com/" target="_blank"><strong>Yan Holtz’s <em>Matplotlib Journey</em></strong></a> (created with Joseph Barbier)—an interactive workbook-style course that goes under the hood of <code>matplotlib</code>’s Figure/Axes object-oriented architecture, custom typography, annotations, and visual hierarchy to turn default plots into publication-grade storytelling graphics.</li>
+<li><strong>Fast Python Environments with <code>uv</code></strong>: Moving away from slow Conda resolves toward <code>uv</code> (<code>uv add -r requirements.txt</code>, <code>uv run python main.py</code>) and executing reproducible parameterised notebooks directly from the CLI (<code>uv run --active jupyter nbconvert --to html --execute ...</code>).</li>
+<li><strong>Positron / VS Code &amp; Cross-Language Workflows</strong>:
+<ul>
+<li>Exploring <strong>Positron</strong> alongside RStudio and VS Code, mastering multi-cursor editing (<code>Alt+Click</code>, <code>Ctrl+D</code>, box selection) and custom keybindings on a Swiss QWERTZ layout.</li>
+<li>Bridging Python and R/Bioconductor containers (S3/S4 objects) and harmonizing multi-batch single-cell and bulk transcriptomics pipelines with automated mitochondrial/ribosomal QC metrics, consistent factor ordering across tissues, and deterministic color palettes (e.g., matching overlapping patient IDs across tissues using the <code>glasbey</code> palette).</li>
+</ul></li>
+<li><strong>UNIX &amp; HPC Optimization</strong>: Configuring SSH <code>ControlMaster</code> multiplexing and disabling reverse DNS/GSSAPI bottlenecks for snappy cluster logins, managing UGE job scheduling, and bridging local Git/Bitbucket workflows with HPC environments.</li>
+</ul>
+<hr>
+</section>
+<section id="machine-learning-multi-omics-statistical-foundations" class="level2">
+<h2 class="anchored" data-anchor-id="machine-learning-multi-omics-statistical-foundations">3. Machine Learning &amp; Multi-Omics Statistical Foundations</h2>
+<p>As computational groups increasingly ask <em>“What is our role when an LLM can draft the boilerplate code?”</em> (a question recently highlighted by Fabian Theis’s group), the answer is clear: <strong>experimental design, statistical rigor, and biological interpretation</strong>.</p>
+<p>Right now, I am eagerly anticipating <strong>StatQuest’s (Josh Starmer’s) November Machine Learning mastery cohort</strong>—a live, hands-on program walking step-by-step from linear/logistic regression, gradient descent, cross-validation, and regularization through to Random Forests, Gradient Boosting/XGBoost, and Neural Networks. Rather than waiting passively for the cohort to kick off, I have been using <strong>Claude Code</strong> to reconstruct and mimic the course curriculum ahead of time directly from the syllabus description: generating interactive Python notebooks, building algorithms from scratch alongside <code>scikit-learn</code>/<code>PyTorch</code>, and stress-testing my intuition on each module so I can walk into the live sessions ready to ask deeper edge-case questions.</p>
+<p>Alongside that cohort prep, here are the statistical and ML concepts I have been revisiting and applying:</p>
+<ul>
+<li><strong>Multi-Study Omics Integration (<code>MINT</code> / <code>mixOmics</code>)</strong>: Sequential two-step pipelines (batch-effect removal via ComBat followed by classification) often overfit and fail on external validation. I have been studying <strong>MINT (Multivariate INTegrative Method)</strong>, which projects independent studies into a common latent space while applying <span class="math inline">\(L_1\)</span> penalization to select sparse, reproducible biomarker signatures simultaneously.</li>
+<li><strong>Exploratory Data Analysis (EDA) for Omics</strong>:
+<ul>
+<li><strong>What’s <em>not</em> expressed matters</strong>: In RNA-seq, collecting zero-expression genes and running pathway enrichment on them is a powerful sanity check to see what biological programs are absent.</li>
+<li><strong>Thresholds &amp; Transforms</strong>: Using median rather than mean thresholds when filtering low-count features, <span class="math inline">\(\log(x + 1)\)</span> stabilization for overdispersed counts, and checking sex-specific markers and mito/ribo fractions early.</li>
+</ul></li>
+<li><strong>Ranking in GSEA (<code>fgsea</code>)</strong>: Using the signed <strong>Wald statistic</strong> (<span class="math inline">\(\text{effect size} / \text{SE}\)</span>) from <code>DESeq2</code>/<code>limma</code> rather than raw fold-changes to rank genes, ensuring both magnitude and estimation uncertainty inform pathway enrichment.</li>
+<li><strong>Stratified Evaluation &amp; Core Metrics</strong>: Avoiding the classic ML trap of evaluating models on random time slices rather than <strong>stratified sampling</strong> across clinical covariates; keeping sharp distinctions between <strong>SD</strong> vs.&nbsp;<strong>SEM</strong> (<span class="math inline">\(\text{SD}/\sqrt{n}\)</span>), <strong>Cohen’s</strong> <span class="math inline">\(d\)</span> vs.&nbsp;<strong>Tukey’s</strong> <span class="math inline">\(1.5 \times \text{IQR}\)</span>, <strong>Mann-Whitney U</strong> vs.&nbsp;<strong>Wilcoxon signed-rank</strong>, and <strong>Cosine Similarity</strong> (<span class="math inline">\(\frac{a \cdot b}{\|a\|\|b\|}\)</span>) in embedding space.</li>
+</ul>
+<hr>
+</section>
 <section id="pharmaceutical-lifecycle-target-identification-pipeline-strategy" class="level2">
-<h2 class="anchored" data-anchor-id="pharmaceutical-lifecycle-target-identification-pipeline-strategy">2. Pharmaceutical Lifecycle, Target Identification &amp; Pipeline Strategy</h2>
+<h2 class="anchored" data-anchor-id="pharmaceutical-lifecycle-target-identification-pipeline-strategy">4. Pharmaceutical Lifecycle, Target Identification &amp; Pipeline Strategy</h2>
 <p>Moving from academic discovery to industrial drug development changes how you look at a p-value. A major part of my recent professional learning has focused on understanding the <strong>end-to-end pharmaceutical R&amp;D lifecycle</strong>—from early target discovery to portfolio strategy.</p>
 <section id="the-economics-bottlenecks-of-first-in-class-discovery" class="level3">
 <h3 class="anchored" data-anchor-id="the-economics-bottlenecks-of-first-in-class-discovery">The Economics &amp; Bottlenecks of First-in-Class Discovery</h3>
@@ -247,55 +286,23 @@ Hard-Won Lesson: Why Backups &amp; Sandboxes Are Non-Negotiable
 <hr>
 </section>
 </section>
-<section id="programming-environment-management-hpc-workflows" class="level2">
-<h2 class="anchored" data-anchor-id="programming-environment-management-hpc-workflows">3. Programming, Environment Management &amp; HPC Workflows</h2>
-<p>While <strong>R</strong> (Bioconductor, <code>Seurat</code>, <code>limma</code>, <code>tidyverse</code>) and <strong>Bash</strong> remain my daily drivers, I have been sharpening my cross-language tooling across <strong>Python</strong>, <strong>HPC clusters</strong>, and <strong>IDE ergonomics</strong>:</p>
-<ul>
-<li><strong>Fast Python Environments with <code>uv</code></strong>: Moving away from slow Conda resolves toward <code>uv</code> (<code>uv add -r requirements.txt</code>, <code>uv run python main.py</code>) and executing reproducible parameterised notebooks directly from the CLI (<code>uv run --active jupyter nbconvert --to html --execute ...</code>).</li>
-<li><strong>R &amp; Positron / VS Code Workflows</strong>:
-<ul>
-<li>Exploring <strong>Positron</strong> alongside RStudio and VS Code, mastering multi-cursor editing (<code>Alt+Click</code>, <code>Ctrl+D</code>, box selection) and custom keybindings on a Swiss QWERTZ layout.</li>
-<li>Understanding <strong>S3 vs.&nbsp;S4 object systems</strong> in Bioconductor—balancing flexible <code>data.frame</code>/list workflows with formally validated S4 genomic containers.</li>
-<li>Harmonizing multi-batch single-cell and bulk transcriptomics pipelines: automated mitochondrial/ribosomal QC metrics, consistent factor ordering across tissues, and deterministic color palettes (e.g., matching overlapping patient IDs across tissues using the <code>glasbey</code> palette).</li>
-</ul></li>
-<li><strong>UNIX &amp; HPC Optimization</strong>: Configuring SSH <code>ControlMaster</code> multiplexing and disabling reverse DNS/GSSAPI bottlenecks for snappy cluster logins, managing UGE job scheduling, and bridging local Git/Bitbucket workflows with HPC environments.</li>
-</ul>
-<hr>
-</section>
-<section id="machine-learning-multi-omics-statistical-foundations" class="level2">
-<h2 class="anchored" data-anchor-id="machine-learning-multi-omics-statistical-foundations">4. Machine Learning &amp; Multi-Omics Statistical Foundations</h2>
-<p>As computational groups increasingly ask <em>“What is our role when an LLM can draft the boilerplate code?”</em> (a question recently highlighted by Fabian Theis’s group), the answer is clear: <strong>experimental design, statistical rigor, and biological interpretation</strong>.</p>
-<p>Here are the statistical and ML concepts I have been revisiting and applying:</p>
-<ul>
-<li><strong>Multi-Study Omics Integration (<code>MINT</code> / <code>mixOmics</code>)</strong>: Sequential two-step pipelines (batch-effect removal via ComBat followed by classification) often overfit and fail on external validation. I have been studying <strong>MINT (Multivariate INTegrative Method)</strong>, which projects independent studies into a common latent space while applying <span class="math inline">\(L_1\)</span> penalization to select sparse, reproducible biomarker signatures simultaneously.</li>
-<li><strong>Exploratory Data Analysis (EDA) for Omics</strong>:
-<ul>
-<li><strong>What’s <em>not</em> expressed matters</strong>: In RNA-seq, collecting zero-expression genes and running pathway enrichment on them is a powerful sanity check to see what biological programs are absent.</li>
-<li><strong>Thresholds &amp; Transforms</strong>: Using median rather than mean thresholds when filtering low-count features, <span class="math inline">\(\log(x + 1)\)</span> stabilization for overdispersed counts, and checking sex-specific markers and mito/ribo fractions early.</li>
-</ul></li>
-<li><strong>Ranking in GSEA (<code>fgsea</code>)</strong>: Using the signed <strong>Wald statistic</strong> (<span class="math inline">\(\text{effect size} / \text{SE}\)</span>) from <code>DESeq2</code>/<code>limma</code> rather than raw fold-changes to rank genes, ensuring both magnitude and estimation uncertainty inform pathway enrichment.</li>
-<li><strong>Stratified Evaluation &amp; Core Metrics</strong>: Avoiding the classic ML trap of evaluating models on random time slices rather than <strong>stratified sampling</strong> across clinical covariates; keeping sharp distinctions between <strong>SD</strong> vs.&nbsp;<strong>SEM</strong> (<span class="math inline">\(\text{SD}/\sqrt{n}\)</span>), <strong>Cohen’s <span class="math inline">\(d\)</span></strong> vs.&nbsp;<strong>Tukey’s <span class="math inline">\(1.5 \times \text{IQR}\)</span></strong>, <strong>Mann-Whitney U</strong> vs.&nbsp;<strong>Wilcoxon signed-rank</strong>, and <strong>Cosine Similarity</strong> (<span class="math inline">\(\frac{a \cdot b}{\|a\|\|b\|}\)</span>) in embedding space.</li>
-</ul>
-<hr>
-</section>
-<section id="why-im-motivated-to-finish-my-research-project-on-tendinopathy-osteoarthritis-oa" class="level2">
-<h2 class="anchored" data-anchor-id="why-im-motivated-to-finish-my-research-project-on-tendinopathy-osteoarthritis-oa">5. Why I’m Motivated to Finish My Research Project on Tendinopathy &amp; Osteoarthritis (OA)</h2>
-<p>Alongside my broader learning, one of my strongest personal and scientific goals right now is completing my multi-omics research project on <strong>human tendinopathy and osteoarthritis (OA)</strong>—integrating clinical knee replacement tissue cohorts, patient pain/functional metadata, histopathology, and transcriptomics/proteomics.</p>
-<p>My motivation comes from two directions that reinforce each other every day: <strong>my personal life as an athlete</strong> and <strong>the thrilling scientific inflection point the musculoskeletal field has just reached</strong>.</p>
+<section id="why-im-motivated-to-finish-my-research-project-on-tendinopathy-oa-inflammation" class="level2">
+<h2 class="anchored" data-anchor-id="why-im-motivated-to-finish-my-research-project-on-tendinopathy-oa-inflammation">5. Why I’m Motivated to Finish My Research Project on Tendinopathy, OA &amp; Inflammation</h2>
+<p>Alongside my broader learning, one of my strongest personal and scientific goals right now is completing my multi-omics research project on <strong>human tendinopathy, osteoarthritis (OA), and chronic joint inflammation</strong>—integrating clinical knee replacement tissue cohorts, patient pain/functional metadata, histopathology, and transcriptomics/proteomics.</p>
+<p>My motivation comes from two directions that reinforce each other every day: <strong>my personal life as an amateur athlete (yoga, hiking, climbing, modern dance)</strong> and <strong>the thrilling scientific inflection point the musculoskeletal field has just reached</strong>.</p>
 <section id="personal-connection-sports-trauma-rehab-body-mechanics" class="level3">
 <h3 class="anchored" data-anchor-id="personal-connection-sports-trauma-rehab-body-mechanics">Personal Connection: Sports, Trauma Rehab &amp; Body Mechanics</h3>
-<p>Outside the lab, a huge part of my identity revolves around movement: <strong>climbing</strong> (including building my own home <a href="../..\posts/post-beastmaker-board/">Beastmaker hangboard setup</a>), <strong>mountain hiking, skiing, and yoga</strong>. Anyone who climbs hard or spends years in mountain sports eventually confronts tendon overload, joint micro-trauma, and the slow, humbling reality of connective tissue rehabilitation. Experiencing firsthand how mechanical load, rest, and progressive remodeling govern recovery gave me an enduring fascination with <strong>body mechanics</strong>—how physical force is translated into cellular decisions, and why some tissues heal cleanly while others spiral into chronic pain and degeneration.</p>
+<p>Outside the lab, a huge part of my identity revolves around movement: <strong>climbing</strong> (including building my own home <a href="../../posts/post-beastmaker-board/">Beastmaker hangboard setup</a>), <strong>mountain hiking, and yoga</strong>. Anyone who climbs hard or spends years in mountain sports eventually confronts tendon overload, joint micro-trauma, and the slow, humbling reality of connective tissue rehabilitation. Experiencing firsthand how mechanical load, rest, and progressive remodeling govern recovery gave me an enduring fascination with <strong>body mechanics</strong>—how physical force is translated into cellular decisions, and why some tissues heal cleanly while others spiral into chronic inflammation, pain, and degeneration.</p>
 </section>
-<section id="scientific-inspiration-key-themes-from-eors-2026" class="level3">
-<h3 class="anchored" data-anchor-id="scientific-inspiration-key-themes-from-eors-2026">Scientific Inspiration: Key Themes from EORS 2026</h3>
+<section id="scientific-inspiration-key-themes-from-eors-2026-inflammation-biology" class="level3">
+<h3 class="anchored" data-anchor-id="scientific-inspiration-key-themes-from-eors-2026-inflammation-biology">Scientific Inspiration: Key Themes from EORS 2026 &amp; Inflammation Biology</h3>
 <p>Attending the <strong>European Orthopaedic Research Society (EORS 2026)</strong> meeting recently crystallized just how much new biology we can now uncover in tendon and joint disease:</p>
 <ol type="1">
 <li><strong>The Lifelong Clock of Low-Turnover Tissues</strong>: Radiocarbon-dating studies of human musculoskeletal tissues reveal a sobering truth: the core collagen matrix of adult tendon and articular cartilage formed by skeletal maturity (~age 17) experiences <strong>virtually zero turnover</strong> for the rest of our lives. Because adult tendons cannot simply rebuild their developmental scaffold from scratch, injury triggers <strong>fibrotic repair</strong> rather than true regeneration.</li>
-<li><strong>Fibroblast Subpopulations &amp; How Fibrosis Actually Resolves</strong>: Single-cell and spatial profiling (highlighted in keynote work by Prof.&nbsp;Stephanie Dakin and colleagues) has shown that fibroblasts are far from uniform. In OA synovium, <span class="math inline">\(\text{FAP}^+\text{THY1}^-\)</span> <strong>lining fibroblasts</strong> drive MMP-mediated cartilage destruction, while <span class="math inline">\(\text{FAP}^+\text{THY1}^+\)</span> <strong>sublining fibroblasts</strong> drive inflammation and fibrosis. Even more inspiring is using <strong>frozen shoulder</strong> as a natural human model of <em>self-limiting</em> fibrosis: comparing persisting tendinopathy against resolving capsule fibrosis reveals that pro-resolving <span class="math inline">\(\text{MerTK}^+\)</span> macrophages actively crosstalk with <span class="math inline">\(\text{DKK3}^+\)</span> fibroblasts to dissolve fibrotic matrix—pointing toward <strong>pro-resolving therapies</strong> rather than blunt anti-inflammatories (like NSAIDs or glucocorticoids) that can impair tissue integrity.</li>
-<li><strong>Macrophage Network Plasticity &amp; Emerging Tendon Axes</strong>: Dynamical systems modeling of macrophage polarization (~81-node regulatory networks) helps explain clinical paradoxes in OA: for instance, why <span class="math inline">\(\text{TGF-}\beta\)</span> is essential for synovial homeostasis in health yet locks in stiffness and fibrosis in established OA, why <span class="math inline">\(\text{IL-1}\beta\)</span> blockade alone fails to flip pro-inflammatory macrophage attractors, and how axes like <strong>hypoxia–glutamate signaling</strong>, <strong>JAK-STAT pathways</strong>, and <strong>mechanosensitive ion channels (Piezo1)</strong> govern pathological tendon remodeling.</li>
-<li><strong>Bridging <span class="math inline">\(2\,\mu\text{m}\)</span> Spatial Omics with Biomechanical Strain</strong>: We are moving rapidly from <span class="math inline">\(50\,\mu\text{m}\)</span> spot arrays to <strong><span class="math inline">\(2\,\mu\text{m}\)</span> single-cell spatial transcriptomics</strong> even in challenging calcified joint tissues—and registering 2D spatial gene expression directly onto <strong>3D micro-CT and cyclic mechanical strain maps</strong> to see which genes switch on in high-strain vs.&nbsp;low-strain micro-niches.</li>
+<li><strong>Peripheral Immune Crosstalk &amp; Macrophage Network Plasticity</strong>: Joint and tendon degeneration is never purely a local mechanical wear-and-tear process; it is shaped by continuous <strong>peripheral immune crosstalk</strong> between circulating immune cells, synovial/tendon macrophages, resident stromal populations, and nociceptive nerve fibers. Dynamical systems modeling of macrophage polarization (~81-node regulatory networks) helps explain clinical paradoxes in OA: for instance, why <span class="math inline">\(\text{TGF-}\beta\)</span> is essential for synovial homeostasis in health yet locks in stiffness and fibrosis in established OA, why <span class="math inline">\(\text{IL-1}\beta\)</span> blockade alone fails to flip pro-inflammatory macrophage attractors, and how axes like <strong>JAK-STAT pathways</strong>, and <strong>mechanosensitive ion channels (Piezo1)</strong> govern pathological tendon remodeling.</li>
+<li><strong>Inflammaging &amp; Systemic Metabolic Stress</strong>: Age-associated chronic low-grade inflammation (<strong>inflammaging</strong>), cellular senescence, and systemic metabolic shifts prime musculoskeletal tissues for failed repair—lowering the threshold at which everyday mechanical strain tips resident stromal and immune cells into a persistent pro-inflammatory, matrix-degrading state.</li>
 </ol>
-<p>Bringing these clinical, biomechanical, and multi-omics layers together in our own OA and tendinopathy datasets feels like solving a puzzle that matters both at the bench and on the climbing wall.</p>
+<p>Bringing these clinical, biomechanical, and systemic immune layers together in our own OA and tendinopathy datasets feels like solving a puzzle that matters both at the bench and on the climbing wall.</p>
 <hr>
 </section>
 </section>
@@ -304,8 +311,9 @@ Hard-Won Lesson: Why Backups &amp; Sandboxes Are Non-Negotiable
 <p>Technical depth only creates impact when you can align people around it. In industry, where cross-functional teams of biologists, clinicians, biostatisticians, and executives have 15 minutes to make a portfolio decision, <strong>communication is a core multiplier</strong>.</p>
 <ul>
 <li><strong>Presentation Mastery at Toastmasters</strong>: I have been actively training at <strong>Toastmasters</strong> (completing levels in the <em>Presentation Mastery</em> pathway). Practicing in a supportive club environment has pushed me to be intentional about <strong>vocal variety</strong> (modulating pitch, volume, and pace rather than rushing through dense material), <strong>the power of the pause</strong> (letting a key insight land before moving on), <strong>stage presence &amp; body language</strong>, and delivering <strong>structured, empathetic peer evaluations</strong> that balance encouragement with concrete, actionable feedback.</li>
-<li><strong>Coaching &amp; Self-Leadership</strong>: Through professional coaching, I have been working on distinguishing what is within my direct control (my schedule, preparation, emotional pause before high-stakes decisions, and ownership mindset) from external organizational noise—and balancing technical “sprint” energy with long-term cross-team coordination.</li>
-<li><strong>Visual Hierarchy &amp; Web Storytelling</strong>: Inspired by <em>The Economist</em>’s data visualization style guides, I focus on stripping away chart clutter so visual encodings match human perceptual hierarchy (position and length over area and color saturation)—and packaging complex findings into reproducible <strong>Quarto</strong> reports, <strong>Shiny</strong> apps, and interactive <a href="../..\posts/post-macula-disease-knowledge-base/"><strong>3D web knowledge bases</strong></a> (built following the <a href="https://claude.ai/artifact/ToTMR5H9ZV1njDrjQ3DRgq" target="_blank">workflow shared by John Damask</a>).</li>
+<li><strong>Networking &amp; Learning from Experts</strong>: Some of the highest-leverage insights never make it into papers—they come from direct conversations with domain experts, clinicians, and senior engineers at conferences, meetups, and across teams. Asking sharp, well-prepared questions and cultivating genuine professional relationships has become one of my favorite ways to stress-test my own assumptions and accelerate learning.</li>
+<li><strong>Stakeholder Alignment &amp; Coaching</strong>: Through professional coaching, I have been working on distinguishing what is within my direct control (my schedule, preparation, emotional pause before high-stakes decisions, and ownership mindset) from external organizational noise—and balancing technical “sprint” energy with long-term cross-team coordination.</li>
+<li><strong>Interactive Web Storytelling</strong>: I focus on stripping away visual clutter so every figure communicates a clear takeaway—and packaging complex findings into reproducible <strong>Quarto</strong> reports, <strong>Shiny</strong> apps, and interactive <a href="../../posts/post-macula-disease-knowledge-base/"><strong>3D web knowledge bases</strong></a> (built following the <a href="https://claude.ai/artifact/ToTMR5H9ZV1njDrjQ3DRgq" target="_blank">workflow shared by John Damask</a>).</li>
 </ul>
 <hr>
 </section>
@@ -313,13 +321,13 @@ Hard-Won Lesson: Why Backups &amp; Sandboxes Are Non-Negotiable
 <h2 class="anchored" data-anchor-id="upcoming-events-im-excited-to-visit">7. Upcoming Events I’m Excited to Visit</h2>
 <p>Learning doesn’t happen in isolation—it thrives in community. Two sets of upcoming events on my calendar that I am particularly excited about are:</p>
 <ul>
-<li><strong>Basel Spatial Omics Day &amp; Single-Cell Community Meetups</strong>: Basel is a unique global hub where academic institutes (ETH D-BSSE, FMI, University of Basel) and pharma/biotech R&amp;D campuses intersect. I am looking forward to <strong>Basel Spatial Omics Day</strong> to exchange practical lessons on high-resolution spatial transcriptomics, cell-cell neighborhood modeling, and tissue registration in complex human pathology.</li>
+<li><strong>Single-Cell, Immunology &amp; Computational Biology Meetups in Basel</strong>: Basel is a unique global hub where academic institutes (ETH D-BSSE, FMI, University of Basel) and pharma/biotech R&amp;D campuses intersect. I am always looking forward to local community symposiums and meetups to exchange practical lessons on single-cell multi-omics, translational immunology, and complex human pathology with domain experts.</li>
 <li><strong>Biomedical &amp; AI Research Hackathons</strong>: After seeing how rapidly agentic AI workflows, MCP servers, and multimodal embeddings are evolving, I am eager to participate in upcoming <strong>Biomedical and AI Research Hackathons</strong>—collaborating under time pressure with engineers and domain scientists to turn raw biological datasets and knowledge graphs into working, verifiable prototypes.</li>
 </ul>
 <hr>
 <section id="looking-ahead" class="level3">
 <h3 class="anchored" data-anchor-id="looking-ahead">Looking Ahead</h3>
-<p>Whether it is debugging an agentic workflow, modeling a Phase 2B biomarker signature, mapping fibroblast-macrophage crosstalk in an osteoarthritic joint, or stepping up to the lectern at Toastmasters, the thread connecting all of these tracks is <strong>curiosity paired with accountability</strong>: building tools and stories that hold up under real biological and clinical scrutiny.</p>
+<p>Whether it is debugging an agentic workflow, modeling a Phase 2B biomarker signature, mapping peripheral immune crosstalk in an osteoarthritic joint, or stepping up to the lectern at Toastmasters, the thread connecting all of these tracks is <strong>curiosity paired with accountability</strong>: building tools and stories that hold up under real biological and clinical scrutiny.</p>
 
 
 </section>
@@ -327,43 +335,58 @@ Hard-Won Lesson: Why Backups &amp; Sandboxes Are Non-Negotiable
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
-    }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
       }
+      return false;
     }
-    return false;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
       for (const childEl of codeEl.children) {
         if (isCodeAnnotation(childEl)) {
           childEl.remove();
@@ -371,162 +394,184 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
       return codeEl.innerText;
     }
-  });
-  clipboard.on('success', function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  });
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-    const config = {
-      allowHTML: true,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start',
-    };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      return note.innerHTML;
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
     });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
     }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/iosinnii\.github\.io\/blog-iosinnii\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
           }
         }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
         }
-        return container.innerHTML
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
       } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
         if (window.Quarto?.typesetMath) {
           window.Quarto.typesetMath(note);
         }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
       }
     }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
           }
         } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
           .then(res => res.text())
           .then(html => {
             const parser = new DOMParser();
             const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
+            const note = htmlDoc.querySelector('main.content');
             if (note !== null) {
-              const html = processXRef(id, note);
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
               instance.setContent(html);
             } 
           }).finally(() => {
@@ -534,185 +579,161 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
-    });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            div.style.left = 0;
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+      }, function(instance) {
       });
     }
-  }
-});
-</script>
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
