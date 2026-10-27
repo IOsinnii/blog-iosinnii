@@ -3,11 +3,15 @@ project:
   output-dir: docs
 
 website:
-  title: "Personal Blog"
+  title: "Ivan Osinnii"
   site-url: "https://iosinnii.github.io/blog-iosinnii/"
+  description: "Notes on computational biology, translational multi-omics, agentic AI, and life in the mountains."
+  open-graph: true
   navbar:
     right:
       - about.qmd
+      - icon: linkedin
+        href: https://linkedin.com/in/ivan-osinnii
       - icon: github
         href: https://github.com/IOsinnii
   page-footer:
@@ -44,6 +48,8 @@ format:
     theme:
       - morph
       - custom.scss
+    code-copy: true
+    smooth-scroll: true
 
 # --- Option D: Light/Dark user toggle ---
 # format:

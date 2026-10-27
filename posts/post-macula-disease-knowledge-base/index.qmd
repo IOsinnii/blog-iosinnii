@@ -1,5 +1,6 @@
 ---
 title: "A Knowledge Base for One Decision: Helping Family Member Choose an AMD Treatment"
+description: "How I built an interactive, source-traced clinical knowledge base to help a close relative and her ophthalmologist navigate age-related macular degeneration treatment options."
 author: "Ivan Osinnii"
 date: "2026-10-18"
 categories: [health, ophthalmology, knowledge-base, ai-tools]

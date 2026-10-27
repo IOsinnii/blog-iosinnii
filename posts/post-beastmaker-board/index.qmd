@@ -1,5 +1,6 @@
 ---
 title: "Mounting the Beast: A DIY Guide to Installing a Beastmaker 1000 Hangboard"
+description: "A step-by-step photo guide to turning a blank apartment doorway into a rock-solid finger-strength training station with a plywood backboard and Beastmaker 1000."
 author: "Ivan Osinnii"
 date: "2025-01-18"
 categories: [climbing, DIY, training]

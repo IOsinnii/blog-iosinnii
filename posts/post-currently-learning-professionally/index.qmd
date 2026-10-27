@@ -1,5 +1,6 @@
 ---
 title: "What Am I Currently Learning Professionally?"
+description: "A synthesis of the six tracks on my desk right now: agentic AI & MCP, Python/HPC tooling, ML & multi-omics statistics, pharma Target ID, tendinopathy/OA inflammation, and scientific storytelling."
 author: "Ivan Osinnii"
 date: "2026-10-25"
 categories: [learning, ai-agents, pharma-rd, inflammation, musculoskeletal, machine-learning, communication]

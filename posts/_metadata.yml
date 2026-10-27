@@ -6,3 +6,8 @@ freeze: true
 
 # Enable banner style title blocks
 title-block-banner: true
+
+# Enable sticky right-hand Table of Contents on posts
+toc: true
+toc-depth: 3
+toc-title: "On this page"

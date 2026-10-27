@@ -1,5 +1,6 @@
 ---
 title: "Integrated Transcriptome-Metabolome Analysis of Rps2-A226Y Mutant Liver"
+description: "Multi-omics profiling of mouse liver carrying the ribosomal ambiguity mutation Rps2-A226Y across 9 and 15 months, uncovering age-dependent remodeling in bile acid metabolism, oxidative stress, and proteostasis."
 author: "Ivan Osinnii"
 date: "2026-06-01"
 categories: [analysis, metabolomics, transcriptomics, systems-biology]
