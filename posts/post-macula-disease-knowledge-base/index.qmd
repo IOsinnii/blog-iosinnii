@@ -24,7 +24,7 @@ Here it is, live. You can browse it right inside this post, or [open it in a new
           style="display: block; width: 100%; height: 720px; border: 0;"></iframe>
 </div>
 <p style="font-size: 0.85rem; color: #6c757d; text-align: center;">
-  The embedded site opens in its light theme; the toggle in its top-right corner switches to dark or to a Russian interface.
+  The embedded site opens in its light theme; the toggle in its top-right corner switches interface types and languages.
 </p>
 ```
 
