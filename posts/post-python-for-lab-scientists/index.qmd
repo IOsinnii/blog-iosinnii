@@ -1,0 +1,67 @@
+---
+title: "Python for Lab Scientists Without a Maths Background"
+description: "Two short animated screencasts introducing Python to wet-lab scientists using 96-well plate reader examples, built programmatically with Manim, React.js, Kokoro TTS, and Claude."
+author: "Ivan Osinnii"
+date: "2026-10-30"
+categories: [python, teaching, screencast, beginners, ai-tools]
+image: "thumbnail.png"
+resources:
+  - python-series-with-intro.mp4
+  - python-operators-and-functions.mp4
+  - poster_video1.png
+  - poster_video2.png
+---
+
+Most introductions to Python quietly assume you already think in equations. If you come from the wet-lab bench, with plate readers, spreadsheets, and experimental protocols rather than a mathematics or statistics background, the first hurdle is not the syntax. It is the idea that a program is simply a list of instructions for a worker who follows them exactly.
+
+Having made the transition from bench experimentalist to computational biology myself, these two short videos are my attempt to remove that hurdle, one small step at a time.
+
+------------------------------------------------------------------------
+
+## The idea behind the videos
+
+The goal is to help complete beginners understand how to work with Python without any quantitative background. The first video starts from a situation most biochemists and cell biologists know well: a plate reader returns 96 numbers across dozens of plates, and someone has to count, add, and check them without losing track of a row. It then walks through core built-in functions (`len()`, `sum()`, `max()`, `abs()`, `round()`, `sorted()`, `any()`, `all()`) framed as a conversation between a **Client** and a **Worker**. The second video explains the small building blocks you need to read and write Python code: comparison operators, and how a function call is put together.
+
+------------------------------------------------------------------------
+
+## Video 1: Why a script beats copy and paste & built-in functions (8 min)
+
+```{=html}
+<div style="border: 1px solid #dee2e6; border-radius: 10px; overflow: hidden; margin: 1rem 0 0.6rem;">
+  <video controls preload="metadata" poster="poster_video1.png" width="100%" style="display: block;" src="python-series-with-intro.mp4"></video>
+</div>
+```
+
+This video introduces Python as a language for giving instructions, base Python as a toolkit of ready-made functions (counting, totals, tidying, sorting, and checking conditions), and specialist libraries that you bring in when the built-in tools are not enough.
+
+------------------------------------------------------------------------
+
+## Video 2: Operators and function structure (5 min)
+
+```{=html}
+<div style="border: 1px solid #dee2e6; border-radius: 10px; overflow: hidden; margin: 1rem 0 0.6rem;">
+  <video controls preload="metadata" poster="poster_video2.png" width="100%" style="display: block;" src="python-operators-and-functions.mp4"></video>
+</div>
+```
+
+This video covers the assignment and comparison operators (`=`, `==`, `!=`, `<`, `>`, `<=`, `>=`), and then the anatomy of a function call: the name, the round brackets, and the arguments inside them.
+
+------------------------------------------------------------------------
+
+## How the videos were made
+
+Rather than recording a screen by hand, the whole series is generated deterministically from code:
+
+- **Manim**, a Python animation library, draws the operator and function-structure scenes.
+- **React.js, HTML, CSS, and JavaScript**, rendered frame by frame in a headless Chromium browser, make the opening plate-reader spreadsheet and closing scenes.
+- **Kokoro**, an offline text-to-speech model, provides the English narration.
+- **ffmpeg** mixes the narration into the picture and joins the scenes.
+- **Claude**, an AI coding assistant, wrote the scripts and the animation code, guided by reusable skill instructions for screencast production (part of the agentic workflows I explored in my [previous post](/posts/post-currently-learning-professionally/)).
+
+Every scene is generated from version-controlled text. That makes it easy to correct a sentence or tweak an example and rebuild only the part that changed.
+
+------------------------------------------------------------------------
+
+## Who this is for
+
+If you know what a 96-well plate and a spreadsheet are, you can follow these videos. If something is unclear, the scenes are short enough to watch again, and the next step is simply to open a Python console and try the same lines yourself.

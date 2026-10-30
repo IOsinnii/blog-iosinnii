@@ -116,6 +116,48 @@
     "href": "index.html",
     "title": "Personal Blog",
     "section": "",
-    "text": "What Am I Currently Learning Professionally?\n\n\n\nlearning\n\nai-agents\n\npharma-rd\n\ninflammation\n\nmusculoskeletal\n\nmachine-learning\n\ncommunication\n\n\n\nA synthesis of the six tracks on my desk right now: agentic AI & MCP, Python/HPC tooling, ML & multi-omics statistics, pharma Target ID, tendinopathy/OA inflammation, and scientific storytelling.\n\n\n\n\n\nOct 25, 2026\n\n12 min\n\n\n\n\n\n\n\n\n\n\n\nA Knowledge Base for One Decision: Helping Family Member Choose an AMD Treatment\n\n\n\nhealth\n\nophthalmology\n\nknowledge-base\n\nai-tools\n\n\n\nHow I built an interactive, source-traced clinical knowledge base to help a close relative and her ophthalmologist navigate age-related macular degeneration treatment options.\n\n\n\n\n\nOct 18, 2026\n\n5 min\n\n\n\n\n\n\n\n\n\n\n\nIntegrated Transcriptome-Metabolome Analysis of Rps2-A226Y Mutant Liver\n\n\n\nanalysis\n\nmetabolomics\n\ntranscriptomics\n\nsystems-biology\n\n\n\nMulti-omics profiling of mouse liver carrying the ribosomal ambiguity mutation Rps2-A226Y across 9 and 15 months, uncovering age-dependent remodeling in bile acid metabolism, oxidative stress, and proteostasis.\n\n\n\n\n\nJun 1, 2026\n\n3 min\n\n\n\n\n\n\n\n\n\n\n\nMounting the Beast: A DIY Guide to Installing a Beastmaker 1000 Hangboard\n\n\n\nclimbing\n\nDIY\n\ntraining\n\n\n\nA step-by-step photo guide to turning a blank apartment doorway into a rock-solid finger-strength training station with a plywood backboard and Beastmaker 1000.\n\n\n\n\n\nJan 18, 2025\n\n4 min\n\n\n\n\nNo matching items"
+    "text": "Python for Lab Scientists Without a Maths Background\n\n\n\n\n\n\npython\n\n\nteaching\n\n\nscreencast\n\n\nbeginners\n\n\nai-tools\n\n\n\nTwo short animated screencasts introducing Python to wet-lab scientists using 96-well plate reader examples, built programmatically with Manim, React.js, Kokoro TTS, and Claude.\n\n\n\n\n\nOct 30, 2026\n\n\n3 min\n\n\n\n\n\n\n\n\n\n\n\n\nWhat Am I Currently Learning Professionally?\n\n\n\n\n\n\nlearning\n\n\nai-agents\n\n\npharma-rd\n\n\ninflammation\n\n\nmusculoskeletal\n\n\nmachine-learning\n\n\ncommunication\n\n\n\nA synthesis of the six tracks on my desk right now: agentic AI & MCP, Python/HPC tooling, ML & multi-omics statistics, pharma Target ID, tendinopathy/OA inflammation, and scientific storytelling.\n\n\n\n\n\nOct 25, 2026\n\n\n12 min\n\n\n\n\n\n\n\n\n\n\n\n\nA Knowledge Base for One Decision: Helping Family Member Choose an AMD Treatment\n\n\n\n\n\n\nhealth\n\n\nophthalmology\n\n\nknowledge-base\n\n\nai-tools\n\n\n\nHow I built an interactive, source-traced clinical knowledge base to help a close relative and her ophthalmologist navigate age-related macular degeneration treatment options.\n\n\n\n\n\nOct 18, 2026\n\n\n5 min\n\n\n\n\n\n\n\n\n\n\n\n\nIntegrated Transcriptome-Metabolome Analysis of Rps2-A226Y Mutant Liver\n\n\n\n\n\n\nanalysis\n\n\nmetabolomics\n\n\ntranscriptomics\n\n\nsystems-biology\n\n\n\nMulti-omics profiling of mouse liver carrying the ribosomal ambiguity mutation Rps2-A226Y across 9 and 15 months, uncovering age-dependent remodeling in bile acid metabolism, oxidative stress, and proteostasis.\n\n\n\n\n\nJun 1, 2026\n\n\n3 min\n\n\n\n\n\n\n\n\n\n\n\n\nMounting the Beast: A DIY Guide to Installing a Beastmaker 1000 Hangboard\n\n\n\n\n\n\nclimbing\n\n\nDIY\n\n\ntraining\n\n\n\nA step-by-step photo guide to turning a blank apartment doorway into a rock-solid finger-strength training station with a plywood backboard and Beastmaker 1000.\n\n\n\n\n\nJan 18, 2025\n\n\n4 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/post-python-for-lab-scientists/index.html",
+    "href": "posts/post-python-for-lab-scientists/index.html",
+    "title": "Python for Lab Scientists Without a Maths Background",
+    "section": "",
+    "text": "Most introductions to Python quietly assume you already think in equations. If you come from the wet-lab bench, with plate readers, spreadsheets, and experimental protocols rather than a mathematics or statistics background, the first hurdle is not the syntax. It is the idea that a program is simply a list of instructions for a worker who follows them exactly.\nHaving made the transition from bench experimentalist to computational biology myself, these two short videos are my attempt to remove that hurdle, one small step at a time."
+  },
+  {
+    "objectID": "posts/post-python-for-lab-scientists/index.html#the-idea-behind-the-videos",
+    "href": "posts/post-python-for-lab-scientists/index.html#the-idea-behind-the-videos",
+    "title": "Python for Lab Scientists Without a Maths Background",
+    "section": "The idea behind the videos",
+    "text": "The idea behind the videos\nThe goal is to help complete beginners understand how to work with Python without any quantitative background. The first video starts from a situation most biochemists and cell biologists know well: a plate reader returns 96 numbers across dozens of plates, and someone has to count, add, and check them without losing track of a row. It then walks through core built-in functions (len(), sum(), max(), abs(), round(), sorted(), any(), all()) framed as a conversation between a Client and a Worker. The second video explains the small building blocks you need to read and write Python code: comparison operators, and how a function call is put together."
+  },
+  {
+    "objectID": "posts/post-python-for-lab-scientists/index.html#video-1-why-a-script-beats-copy-and-paste-built-in-functions-8-min",
+    "href": "posts/post-python-for-lab-scientists/index.html#video-1-why-a-script-beats-copy-and-paste-built-in-functions-8-min",
+    "title": "Python for Lab Scientists Without a Maths Background",
+    "section": "Video 1: Why a script beats copy and paste & built-in functions (8 min)",
+    "text": "Video 1: Why a script beats copy and paste & built-in functions (8 min)\n\n  \n\nThis video introduces Python as a language for giving instructions, base Python as a toolkit of ready-made functions (counting, totals, tidying, sorting, and checking conditions), and specialist libraries that you bring in when the built-in tools are not enough."
+  },
+  {
+    "objectID": "posts/post-python-for-lab-scientists/index.html#video-2-operators-and-function-structure-5-min",
+    "href": "posts/post-python-for-lab-scientists/index.html#video-2-operators-and-function-structure-5-min",
+    "title": "Python for Lab Scientists Without a Maths Background",
+    "section": "Video 2: Operators and function structure (5 min)",
+    "text": "Video 2: Operators and function structure (5 min)\n\n  \n\nThis video covers the assignment and comparison operators (=, ==, !=, &lt;, &gt;, &lt;=, &gt;=), and then the anatomy of a function call: the name, the round brackets, and the arguments inside them."
+  },
+  {
+    "objectID": "posts/post-python-for-lab-scientists/index.html#how-the-videos-were-made",
+    "href": "posts/post-python-for-lab-scientists/index.html#how-the-videos-were-made",
+    "title": "Python for Lab Scientists Without a Maths Background",
+    "section": "How the videos were made",
+    "text": "How the videos were made\nRather than recording a screen by hand, the whole series is generated deterministically from code:\n\nManim, a Python animation library, draws the operator and function-structure scenes.\nReact.js, HTML, CSS, and JavaScript, rendered frame by frame in a headless Chromium browser, make the opening plate-reader spreadsheet and closing scenes.\nKokoro, an offline text-to-speech model, provides the English narration.\nffmpeg mixes the narration into the picture and joins the scenes.\nClaude, an AI coding assistant, wrote the scripts and the animation code, guided by reusable skill instructions for screencast production (part of the agentic workflows I explored in my previous post).\n\nEvery scene is generated from version-controlled text. That makes it easy to correct a sentence or tweak an example and rebuild only the part that changed."
+  },
+  {
+    "objectID": "posts/post-python-for-lab-scientists/index.html#who-this-is-for",
+    "href": "posts/post-python-for-lab-scientists/index.html#who-this-is-for",
+    "title": "Python for Lab Scientists Without a Maths Background",
+    "section": "Who this is for",
+    "text": "Who this is for\nIf you know what a 96-well plate and a spreadsheet are, you can follow these videos. If something is unclear, the scenes are short enough to watch again, and the next step is simply to open a Python console and try the same lines yourself."
   }
 ]
