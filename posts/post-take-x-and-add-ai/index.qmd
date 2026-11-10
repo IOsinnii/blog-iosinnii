@@ -4,7 +4,7 @@ description: "A personal reflection on moving from skepticism at a 2018 patholog
 author: "Ivan Osinnii"
 date: "2026-11-01"
 categories: [ai-agents, learning, philosophy, music, bioinformatics]
-image: "ai_mobile_apps.png"
+image: "thumbnail.jpg"
 resources:
   - bachpiece_Ivan.mp3
   - bachpiece_Ivan.m4a
@@ -52,14 +52,11 @@ Sitting at my computer, I tapped a handful of simple, monotonic notes on my keyb
   <p style="margin: 0 0 0.75rem 0; font-size: 0.95rem; color: #2c3e50;">
     Four-part counterpoint generated from a few keystrokes on my laptop.
   </p>
-  <audio controls preload="metadata" style="width: 100%; margin-bottom: 0.4rem;">
+  <audio controls preload="metadata" style="width: 100%;">
     <source src="bachpiece_Ivan.mp3" type="audio/mpeg">
     <source src="bachpiece_Ivan.m4a" type="audio/mp4">
     Your browser does not support the audio element.
   </audio>
-  <div style="font-size: 0.85rem; color: #6c757d; margin-top: 0.25rem;">
-    <span>Want the raw score? <a href="bachpiece_Ivan.mid" download style="text-decoration: underline; color: #003559;">Download original MIDI file (bachpiece_Ivan.mid)</a></span>
-  </div>
 </div>
 ```
 
