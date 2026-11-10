@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://iosinnii.github.io/blog-iosinnii/index.html</loc>
-    <lastmod>2026-10-30T20:34:28.000Z</lastmod>
+    <loc>https://iosinnii.github.io/blog-iosinnii/posts/rps2-a226y-liver-integrated-omics/index.html</loc>
+    <lastmod>2026-10-30T20:34:28.470Z</lastmod>
   </url>
   <url>
     <loc>https://iosinnii.github.io/blog-iosinnii/posts/post-python-for-lab-scientists/index.html</loc>
-    <lastmod>2026-11-10T14:21:21.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iosinnii.github.io/blog-iosinnii/posts/post-macula-disease-knowledge-base/index.html</loc>
-    <lastmod>2026-10-30T20:34:28.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iosinnii.github.io/blog-iosinnii/posts/post-beastmaker-board/index.html</loc>
-    <lastmod>2026-10-30T20:34:28.000Z</lastmod>
+    <lastmod>2026-11-10T14:21:21.614Z</lastmod>
   </url>
   <url>
     <loc>https://iosinnii.github.io/blog-iosinnii/posts/post-currently-learning-professionally/index.html</loc>
-    <lastmod>2026-10-30T20:34:28.000Z</lastmod>
+    <lastmod>2026-10-30T20:34:28.459Z</lastmod>
   </url>
   <url>
-    <loc>https://iosinnii.github.io/blog-iosinnii/posts/rps2-a226y-liver-integrated-omics/index.html</loc>
-    <lastmod>2026-10-30T20:34:28.000Z</lastmod>
+    <loc>https://iosinnii.github.io/blog-iosinnii/index.html</loc>
+    <lastmod>2026-10-30T20:34:28.450Z</lastmod>
   </url>
   <url>
     <loc>https://iosinnii.github.io/blog-iosinnii/about.html</loc>
-    <lastmod>2026-10-25T23:10:41.000Z</lastmod>
+    <lastmod>2026-10-25T23:10:41.163Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iosinnii.github.io/blog-iosinnii/posts/post-beastmaker-board/index.html</loc>
+    <lastmod>2026-10-30T20:34:28.456Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iosinnii.github.io/blog-iosinnii/posts/post-macula-disease-knowledge-base/index.html</loc>
+    <lastmod>2026-10-30T20:34:28.464Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iosinnii.github.io/blog-iosinnii/posts/post-take-x-and-add-ai/index.html</loc>
+    <lastmod>2026-11-10T14:36:35.039Z</lastmod>
   </url>
 </urlset>
