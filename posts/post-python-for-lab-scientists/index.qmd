@@ -1,50 +1,94 @@
 ---
 title: "Python for Lab Scientists Without a Maths Background"
-description: "Two short animated screencasts introducing Python to wet-lab scientists using 96-well plate reader examples, built programmatically with Manim, React.js, Kokoro TTS, and Claude."
+description: "A three-part video course introducing Python to wet-lab scientists, starting from a 96-well plate reader. Built programmatically with Manim, HTML/JavaScript, Kokoro TTS, and Claude."
 author: "Ivan Osinnii"
 date: "2026-10-30"
+date-modified: "2026-11-10"
 categories: [python, teaching, screencast, beginners, ai-tools]
 image: "thumbnail.png"
 resources:
-  - python-series-with-intro.mp4
-  - python-operators-and-functions.mp4
+  - python-basics.mp4
+  - python-builtin-functions.mp4
+  - python-where-it-runs.mp4
   - poster_video1.png
   - poster_video2.png
+  - poster_video3.png
 ---
 
 Most introductions to Python quietly assume you already think in equations. If you come from the wet-lab bench, with plate readers, spreadsheets, and experimental protocols rather than a mathematics or statistics background, the first hurdle is not the syntax. It is the idea that a program is simply a list of instructions for a worker who follows them exactly.
 
-Having made the transition from bench experimentalist to computational biology myself, these two short videos are my attempt to remove that hurdle, one small step at a time.
+Having made the transition from bench experimentalist to computational biology myself, these videos are my attempt to remove that hurdle, one small step at a time.
+
+::: {.callout-note}
+**Updated 10 November 2026.** The series has been restructured and extended. The plate-reader opening now starts the basics video, which also gained three new sections (arithmetic, `if` with indentation, and comments). The built-in functions video opens with the customer-and-worker analogy. A third video on where Python runs has been added.
+:::
 
 ------------------------------------------------------------------------
 
-## The idea behind the videos
+## The idea behind the series
 
-The goal is to help complete beginners understand how to work with Python without any quantitative background. The first video starts from a situation most biochemists and cell biologists know well: a plate reader returns 96 numbers across dozens of plates, and someone has to count, add, and check them without losing track of a row. It then walks through core built-in functions (`len()`, `sum()`, `max()`, `abs()`, `round()`, `sorted()`, `any()`, `all()`) framed as a conversation between a **Client** and a **Worker**. The second video explains the small building blocks you need to read and write Python code: comparison operators, and how a function call is put together.
+The goal is to help complete beginners understand how to work with Python without any quantitative background. One picture runs through all the videos: **you are the customer, Python is the worker behind the counter.** A function call is an order: you name the task and, in brackets, what to do it on. The worker does the job and hands back the result.
+
+The series builds up in three steps:
+
+1. **Basics**: what a script is, the handful of symbols you must recognise, and how a function call is put together.
+2. **Built-in functions**: the 25 everyday tools that come with Python, shown one order at a time.
+3. **Where Python runs**: console, script and notebook, the IDE, folders and paths, installing tools, and reading your first plate file.
 
 ------------------------------------------------------------------------
 
-## Video 1: Why a script beats copy and paste & built-in functions (8 min)
+## Video 1: Python basics (4 min)
 
 ```{=html}
 <div style="border: 1px solid #dee2e6; border-radius: 10px; overflow: hidden; margin: 1rem 0 0.6rem;">
-  <video controls preload="metadata" poster="poster_video1.png" width="100%" style="display: block;" src="python-series-with-intro.mp4"></video>
+  <video controls preload="metadata" poster="poster_video1.png" width="100%" style="display: block;" src="python-basics.mp4"></video>
 </div>
 ```
 
-This video introduces Python as a language for giving instructions, base Python as a toolkit of ready-made functions (counting, totals, tidying, sorting, and checking conditions), and specialist libraries that you bring in when the built-in tools are not enough.
+The video opens with a situation most biochemists and cell biologists know well: a plate reader returns 96 numbers across dozens of plates, and someone has to count, add, and check them without losing track of a row. A script is a written list the worker follows exactly, and it gives the same answer every time you run it.
+
+From there it covers, in order:
+
+- **Python as a language, base Python as the toolkit** of ready-made functions.
+- **Arithmetic**: `+`, `-`, `*`, `/`.
+- **Assignment and comparison**: `=` stores a value; `==`, `!=`, `<`, `>`, `<=`, `>=` ask a question and answer `True` or `False`.
+- **Function structure**: the name, the round brackets, and the arguments inside them, with one, several, or no arguments.
+- **`if` and indentation**: a comparison decides whether the indented line runs, and the four spaces are grammar, not decoration. The video shows the `IndentationError` you get when they are missing.
+- **Comments**: a line starting with `#` is a note for people, not for the worker.
 
 ------------------------------------------------------------------------
 
-## Video 2: Operators and function structure (5 min)
+## Video 2: Built-in functions (8 min)
 
 ```{=html}
 <div style="border: 1px solid #dee2e6; border-radius: 10px; overflow: hidden; margin: 1rem 0 0.6rem;">
-  <video controls preload="metadata" poster="poster_video2.png" width="100%" style="display: block;" src="python-operators-and-functions.mp4"></video>
+  <video controls preload="metadata" poster="poster_video2.png" width="100%" style="display: block;" src="python-builtin-functions.mp4"></video>
 </div>
 ```
 
-This video covers the assignment and comparison operators (`=`, `==`, `!=`, `<`, `>`, `<=`, `>=`), and then the anatomy of a function call: the name, the round brackets, and the arguments inside them.
+After a short preface on the shop analogy, the video explains that built-in functions are the generic worker's everyday skills, and that specialist libraries such as `numpy` and `pandas` are brought in with `import` when the job needs more. It then walks through three short movies, each a sequence of orders at the counter:
+
+- **Counting and totals**: `print`, `input`, `len`, `sum`, `min`, `max`, `abs`, `round`.
+- **Converting and checking**: `int`, `float`, `str`, `bool`, `type`, `isinstance`, `list`, `dict`.
+- **Loops and collections**: `range`, `sorted`, `reversed`, `enumerate`, `zip`, `map`, `filter`, `any`, `all`.
+
+------------------------------------------------------------------------
+
+## Video 3: Where Python runs (4 min)
+
+```{=html}
+<div style="border: 1px solid #dee2e6; border-radius: 10px; overflow: hidden; margin: 1rem 0 0.6rem;">
+  <video controls preload="metadata" poster="poster_video3.png" width="100%" style="display: block;" src="python-where-it-runs.mp4"></video>
+</div>
+```
+
+The third video leaves the language and looks at the room it runs in:
+
+- **Three places to type the same line**: the console (one line in, one answer out), a script file ending in `.py` that you can run again tomorrow, and a notebook that mixes notes, code and results.
+- **The IDE** as the bench that holds editor, console, files and results side by side. Positron is one such bench; any will do.
+- **The working folder and paths**, and why `FileNotFoundError` is the most common beginner error: the file exists, but Python is standing in the wrong folder.
+- **Installing specialists**: what `pip install` does, and a virtual environment as one toolbox per project.
+- **Closing the loop**: `pandas.read_csv` reads the plate file into a table, and `len` from video 2 counts its 96 rows.
 
 ------------------------------------------------------------------------
 
@@ -52,13 +96,13 @@ This video covers the assignment and comparison operators (`=`, `==`, `!=`, `<`,
 
 Rather than recording a screen by hand, the whole series is generated deterministically from code:
 
-- **Manim**, a Python animation library, draws the operator and function-structure scenes.
-- **React.js, HTML, CSS, and JavaScript**, rendered frame by frame in a headless Chromium browser, make the opening plate-reader spreadsheet and closing scenes.
+- **Manim**, a Python animation library, draws the operator, function-structure, `if`/indentation and comment scenes, and the folder, path, `pip` and `read_csv` scenes of video 3.
+- **Plain HTML, CSS, and JavaScript**, rendered frame by frame in a headless Chromium browser via Playwright, make the plate-reader opening, the shop-analogy preface, the console/script/notebook and IDE scenes, and the title and closing cards.
 - **Kokoro**, an offline text-to-speech model, provides the English narration.
 - **ffmpeg** mixes the narration into the picture and joins the scenes.
 - **Claude**, an AI coding assistant, wrote the scripts and the animation code, guided by reusable skill instructions for screencast production (part of the agentic workflows I explored in my [previous post](/posts/post-currently-learning-professionally/)).
 
-Every scene is generated from version-controlled text. That makes it easy to correct a sentence or tweak an example and rebuild only the part that changed.
+Every scene is generated from version-controlled text. That made this restructuring cheap: the new sections were rendered on their own, and the existing scenes were re-joined in a new order without re-rendering them.
 
 ------------------------------------------------------------------------
 
